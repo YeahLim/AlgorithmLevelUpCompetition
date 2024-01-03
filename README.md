@@ -37,14 +37,14 @@
   첫번째 알고리즘 풀이 : yeahLim/1
   두번째 알고리즘 풀이 : yeahLim/2
   ```
-- `문제풀이 폴더` 밑에 소스코드파일 1개와 README.md 파일 1개를 올린다
+- `문제풀이 폴더` 밑에 `소스코드파일` 1개와 `README.md` 파일 1개를 올린다
   ```
   예시)
   자바 소스코드 : yeahLim/1/Main.java
   파이썬 소스코드 : yeahLim/1/Solution.py
   README.md : yeahLim/1/README.md
   ```
-- README.md 파일의 형식은 yeahLim/1/README.md 형식을 참고한다
+- README.md 파일의 형식은 `yeahLim/1/README.md` 파일을 참고한다
 
 ## 3. 목표 달성 여부 확인
 - 미달성자는 10000원의 벌금을 납부한다
