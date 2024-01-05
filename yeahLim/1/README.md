@@ -1,10 +1,14 @@
 # [프로그래머스] 거스름돈
 
-## :timer_clock: **time**
+## ⏰  **time**
 
 1시간
 
 ## :pushpin: **Algorithm**
+
+DP
+
+## ⏲️**Time Complexity**
 
 DP
 
