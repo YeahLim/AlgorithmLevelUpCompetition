@@ -10,7 +10,7 @@ DP
 
 ## ⏲️**Time Complexity**
 
-DP
+$O(N^2)$
 
 ## :round_pushpin: **Logic**
 1. dp 초기화
