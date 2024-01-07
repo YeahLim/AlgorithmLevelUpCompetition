@@ -47,9 +47,6 @@
   각 언어 형식에 맞는 소스코드 : yeahLim/1/{파일명}.java  yeahLim/1/{파일명}.py  yeahLim/1/{파일명}.cpp
   README.md : yeahLim/1/README.md
   ```
-- `README.md` 파일의 형식은 `yeahLim/1/README.md` 파일을 참고한다
-- `README.md`에서 `제목`과 `알고리즘`은 필수로 작성하며 나머지는 생략 가능하다
-
-## 3. 목표 달성 여부 확인
+- 유를 통해 달성 여부를 확인한다
 - 미달성자는 10000원의 벌금을 납부한다
 - 달성자들은 총 벌금의 1/N만큼씩 수령한다
