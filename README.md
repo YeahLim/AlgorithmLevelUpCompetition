@@ -10,7 +10,7 @@
 |아이디|현재|목표|결과|
 |------|---------|---|---|
 |[YeahLim](https://github.com/YeahLim)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/80014833/42a0347b-1b0d-405e-8bea-92a3f012da26)|백준 골드1|
-|[Godseye93](https://github.com/Godseye93)||백준 플레5|
+|[Godseye93](https://github.com/Godseye93)|![백준시작티어](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/111170651/0fd25292-a990-469a-846d-3f3975ebd6cd)|백준 플레5|
 |abc|테스트|테스트|
 |[SuHyun](https://github.com/khnemu11)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/37679352/6bf349b1-f1ab-4430-a79f-02c07d619585)|프로그래머스 Lv3 56문제 달성||
 |abc|테스트|테스트|
