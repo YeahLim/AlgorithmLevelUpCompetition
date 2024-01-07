@@ -10,7 +10,7 @@
 |아이디|현재|목표|결과|
 |------|---------|---|---|
 |[YeahLim](https://github.com/YeahLim)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/80014833/7b923f6d-6078-4109-bc19-db1ab25eb7bb)|solved.ac Class 3++|solved.ac Class 3
-|[Godseye93](https://github.com/Godseye93)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/80014833/42a0347b-1b0d-405e-8bea-92a3f012da26)|백준 골드2|백준 골드1
+|[Godseye93](https://github.com/Godseye93)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/80014833/42a0347b-1b0d-405e-8bea-92a3f012da26)|백준 골드2|백준 플레5
 |abc|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/80014833/06cb75ad-d25e-40fd-adab-fb5867b1bc77)|프로그래머스 Lv2 안 푼 문제 0개|프로그래머스 Lv2 안 푼 문제 5개 
 |[SuHyun](https://github.com/khnemu11)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/37679352/6bf349b1-f1ab-4430-a79f-02c07d619585)|프로그래머스 Lv3 56문제|프로그래머스 LV3 46문제|
 |abc|테스트2|테스트3|
