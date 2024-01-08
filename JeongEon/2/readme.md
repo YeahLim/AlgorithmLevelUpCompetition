@@ -10,7 +10,7 @@
 
 ## ⏲️**Time Complexity**
 
-$O(N)$
+$O(1)$
 
 ## :round_pushpin: **Logic**
 1. A+B
