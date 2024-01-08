@@ -8,10 +8,10 @@ class Solution {
         dp[1]=1;
                
         for(int i=2;i<dp.length;i++){
-            dp[i] = (dp[i-2]%MODULAR+dp[i-1]%MODULAR)%MODULAR;
+            dp[i] = (dp[i-2] % MODULAR+dp[i-1]%MODULAR) % MODULAR;
             
             if(i%2 == 0 && tops[i/2-1] == EXIST){
-                dp[i] = (dp[i]%MODULAR + dp[i-1]%MODULAR)%MODULAR;
+                dp[i] = (dp[i] % MODULAR + dp[i-1] % MODULAR) % MODULAR;
             }
         }
         
