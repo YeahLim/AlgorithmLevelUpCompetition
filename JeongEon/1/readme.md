@@ -11,7 +11,7 @@
 
 ## ⏲️**Time Complexity**
 
-없음
+$O(1)$
 
 ## :round_pushpin: **Logic**
 
