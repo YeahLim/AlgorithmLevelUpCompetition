@@ -5,7 +5,7 @@
 
 ## :pushpin: **Algorithm**
 
-정
+정렬
 
 ## ⏲️**Time Complexity**
 
