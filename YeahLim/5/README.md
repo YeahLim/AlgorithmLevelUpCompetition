@@ -4,7 +4,7 @@
 15분
 
 ## :pushpin: **Algorithm**
-1. DFS, 중복조합
+1. DFS, 중복순열
 2. DP
 
 ## ⏲️**Time Complexity**
@@ -12,7 +12,7 @@
 2. $O(3^N)$
 
 ## :round_pushpin: **Logic**
-1. 기본적인 중복 조합
+1. 기본적인 중복순열
 2. DP
 
 ## :black_nib: **Review**
