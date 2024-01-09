@@ -10,16 +10,17 @@
 $O(N)$
 
 ## :round_pushpin: **Logic**
+-  M보다 크거나 같을 때 오른쪽++
 ```
-  // M보다 크거나 같을 때 오른쪽++
   if (sum <= M) {
     right++;
     if (right != N) {
       sum += array[right];
     }
   }
-
-  // M보다 작을때 왼쪽++
+```
+- M보다 작을때 왼쪽++
+```
   else if (sum > M) {
     sum -= array[left];  // <- 먼저 빼주고 
     left++;		           // <- 인덱스 수정해야한다
