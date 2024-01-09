@@ -10,7 +10,7 @@
 $O(N^2)$
 
 ## :round_pushpin: **Logic**
-단순 백트래킹
+단순 백트래킹 <br>
 오름차순이기 때문에 index를 다시 1로 되돌리지 않는다
 ```
 private static void backtracking(int index, int count, StringBuilder sb) {
