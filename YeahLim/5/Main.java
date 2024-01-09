@@ -11,7 +11,7 @@ class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine());
 		
-		// 중복조합으로 1,2,3으로 정수를 구할 수 있는 개수 찾기
+		// 중복순열로 1,2,3으로 정수를 구할 수 있는 개수 찾기
 		while (T-- > 0) {
 			count = 0;
 			searchNum(Integer.parseInt(br.readLine()), 0);	
