@@ -35,7 +35,6 @@ class Main {
 		
 		while (!q.isEmpty()) {
 			Node curr = q.poll();
-			System.out.println(curr);
 			
 			if (curr.x == N - 1 && curr.y == M - 1) {
 				System.out.println(curr.count); // pq로 안해도되나?
