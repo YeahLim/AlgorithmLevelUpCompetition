@@ -10,11 +10,11 @@ DP
 $O(N)$
 
 ## :round_pushpin: **Logic**
-1. Bottom-Up 점화식
+Bottom-Up 점화식
 ```
 dp[i] = dp[i-1] + 1
 ```
-2. Top-down 점화식
+
 
 ## :black_nib: **Review**
 - 아주 기본적인 dp문제인데 오랜만에 하니까 까먹었네... 열심히 재활하자
