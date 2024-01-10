@@ -7,7 +7,7 @@
 투포인터
 
 ## ⏲️**Time Complexity**
-$O(N^2)$
+$O(N)$
 
 ## :round_pushpin: **Logic**
 -  M보다 크거나 같을 때 오른쪽++
