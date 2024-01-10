@@ -30,7 +30,7 @@ class Main {
 				count++;
 			}
 
-      // M보다 크거나 같을 때 오른쪽++
+     			// M보다 크거나 같을 때 오른쪽++
 			if (sum <= M) {
 				right++;
 				if (right != N) {
@@ -38,7 +38,7 @@ class Main {
 				}
 			}
 
-      // M보다 작을때 왼쪽++
+      			// M보다 작을때 왼쪽++
 			else if (sum > M) {
 				sum -= array[left];
 				left++;		
