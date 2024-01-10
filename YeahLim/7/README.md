@@ -10,7 +10,7 @@ BFS
 $O(N^2)$
 
 ## :round_pushpin: **Logic**
-아주 기본적인 BFS
+아주 기본적인 `인접 행렬 BFS`
 
 ## :black_nib: **Review**
 - 35분보다 더 적게 걸려야한닷
