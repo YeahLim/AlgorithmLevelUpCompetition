@@ -10,7 +10,7 @@
 
 ## ⏲️**Time Complexity**
 
-$O(logN)$ 
+$O(NlogN)$ 
 
 ## :round_pushpin: **Logic**
 1. 맵
