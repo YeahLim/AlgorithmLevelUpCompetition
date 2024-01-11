@@ -10,7 +10,7 @@
 
 ## ⏲️**Time Complexity**
 
-$O(NlogN)$ 
+$O(logN)$ 
 
 ## :round_pushpin: **Logic**
 1. 이분 정렬
