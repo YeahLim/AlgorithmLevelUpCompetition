@@ -1,20 +1,28 @@
 # AlgorithmLevelUpCompetition
-**[단기 알고리즘 레벨-업 대회] 단기간 내에 알고리즘 레벨 업하기 (2024-01-08 ~ 2024-01-12)**
+**[단기 알고리즘 레벨-업 대회] 단기간 내에 알고리즘 레벨 업하기**
 - 새해 맞이 기념으로 알고리즘 warm-up 가능하다
 - 알고리즘 집중 기간 동안, 한번에 실력을 크게 향상시킬 수 있다
 - 알고리즘은 장기간 싸움인데, 단기간 스터디인만큼 부담감이 줄어든다
+- 각자에게 맞는 수준으로 알고리즘 스터디를 진행할 수 있다
+
+<br>
+
+# 📌날짜
+**제 1회 [24-01-08 ~ 24-01-12]**\
+<br>
+**제 2회 [24-01-22 ~ 24-01-24]**
 
 <br>
 
 # 📌목표
 |아이디|현재|목표|결과|
 |------|---------|---|---|
-|[YeahLim](https://github.com/YeahLim)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/80014833/42a0347b-1b0d-405e-8bea-92a3f012da26)|백준 골드1|
-|[Godseye93](https://github.com/Godseye93)|![백준시작티어](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/111170651/0fd25292-a990-469a-846d-3f3975ebd6cd)|백준 플레5|
-|[KwonJongryul](https://github.com/KwonJongryul)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/122791001/ed505b26-0021-4dce-9d8a-b2cae24a71c8)|실버5문제 골드8문제|
-|[SuHyun](https://github.com/khnemu11)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/37679352/6bf349b1-f1ab-4430-a79f-02c07d619585)|프로그래머스 Lv3 56문제 달성||
-|abc|테스트|테스트|
-|[JeongEon](https://github.com/JeongEon8)|![image](https://github.com/YeahLim/AlgorithmLevelUpCompetition/assets/113885866/548f14f1-91ac-4cef-bb5e-7b16b448a41b)|백준 실버3||
+|[YeahLim](https://github.com/YeahLim)|||
+|[Godseye93](https://github.com/Godseye93)|||
+|[KwonJongryul](https://github.com/KwonJongryul)|||
+|[SuHyun](https://github.com/khnemu11)||||
+|abc|||
+|[JeongEon](https://github.com/JeongEon8)||||
 
 
 
