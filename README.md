@@ -15,14 +15,14 @@
 <br>
 
 # 📌목표
-|아이디|현재|목표|결과|
-|------|---------|---|---|
-|[YeahLim](https://github.com/YeahLim)|||
-|[Godseye93](https://github.com/Godseye93)|||
-|[KwonJongryul](https://github.com/KwonJongryul)|||
-|[SuHyun](https://github.com/khnemu11)||||
-|abc|||
-|[JeongEon](https://github.com/JeongEon8)||||
+|아이디|현재|목표|
+|------|---------|---|
+|[YeahLim](https://github.com/YeahLim)||
+|[Godseye93](https://github.com/Godseye93)||
+|[KwonJongryul](https://github.com/KwonJongryul)||
+|[SuHyun](https://github.com/khnemu11)||
+|abc||
+|[JeongEon](https://github.com/JeongEon8)||
 
 
 
