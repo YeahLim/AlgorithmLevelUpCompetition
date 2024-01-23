@@ -16,7 +16,7 @@
 # 📌목표
 |아이디|현재|목표|
 |------|---------|---|
-|[YeahLim](https://github.com/YeahLim)||
+|[YeahLim](https://github.com/YeahLim)||클래스 3+ 문제 완료 + 클래스4+의 실버 문제 완료 (총14문제)
 |[Godseye93](https://github.com/Godseye93)||
 |[KwonJongryul](https://github.com/KwonJongryul)||
 |[SuHyun](https://github.com/khnemu11)||
