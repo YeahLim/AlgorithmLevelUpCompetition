@@ -16,12 +16,12 @@
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)|클래스 3+ 문제, 클래스4+의 실버 문제 완료 (총 14문제)
+|[YeahLim](https://github.com/YeahLim)|클래스 3+ 문제, 클래스 4+의 실버 문제 (총 14문제)
 |[Godseye93](https://github.com/Godseye93)|하루에 백준 골드문제 5개씩 (총 15문제)
-|[KwonJongryul](https://github.com/KwonJongryul)|하루에 실버 두개 골드 한문제(총 9문제)
+|[KwonJongryul](https://github.com/KwonJongryul)|하루에 실버 2개 골드 1개 (총 9문제)
 |[SuHyun](https://github.com/khnemu11)|제출수가 높은 문제로 백준 700 문제 달성 (총 11문제)
-|[JaeHyung](https://github.com/sonesonjabgo)|실버 3 달성 !! 
-|[JeongEon](https://github.com/JeongEon8)|실버 5문제씩(총 15문제)
+|[JaeHyung](https://github.com/sonesonjabgo)|실버 3 달성!!
+|[JeongEon](https://github.com/JeongEon8)|실버 5문제씩 (총 15문제)
 
 
 
