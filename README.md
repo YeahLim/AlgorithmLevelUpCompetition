@@ -21,7 +21,7 @@
 |[KwonJongryul](https://github.com/KwonJongryul)||하루에 실버 두개 골드 한문제(총9 문제)
 |[SuHyun](https://github.com/khnemu11)|| 제출수가 높은 문제로 백준 700 문제 달성 (총 11문제)
 |[JaeHyung](https://github.com/sonesonjabgo)|| 실버 3 달성 !! 
-|[JeongEon](https://github.com/JeongEon8)||
+|[JeongEon](https://github.com/JeongEon8)|| 실버 5문제씩(총 15문제)
 
 
 
