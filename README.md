@@ -19,7 +19,7 @@
 |[YeahLim](https://github.com/YeahLim)||클래스 3+ 문제 완료 + 클래스4+의 실버 문제 완료 (총14문제)
 |[Godseye93](https://github.com/Godseye93)|| 하루에 백준 골드문제 5개씩 (총 15문제)
 |[KwonJongryul](https://github.com/KwonJongryul)||
-|[SuHyun](https://github.com/khnemu11)||
+|[SuHyun](https://github.com/khnemu11)|| 제출수가 높은 문제로 백준 700 문제 달성 (총 11문제)
 |abc||
 |[JeongEon](https://github.com/JeongEon8)||
 
