@@ -14,24 +14,26 @@ $O(Nlog(logN))$
 
 ## :round_pushpin: **Logic**
 <br/>
-void isPrime(long long M, long long N) { <br/>
-	bool* isPrime = new bool[N + 1]; <br/>
-	for (long long i = 0; i <= N; i++) { <br/>
-		isPrime[i] = true; <br/>
-	} <br/>
+void isPrime(long long M, long long N) {
 
+	bool* isPrime = new bool[N + 1];
+ 
+	for (long long i = 0; i <= N; i++) {
+		isPrime[i] = true;
+	}
 
-	for (long long i = 2; i <= N; i++) { <br/>
-		if (isPrime[i]) { <br/>
-			if (i >= M) { <br/>
-				cout << i << '\n'; <br/>
-			} <br/>
-			for (long long j = i * 2; j <= N; j += i) { <br/>
-				isPrime[j] = false; <br/>
-			} <br/>
-		} <br/>
-	} <br/>
-} <br/>
+	for (long long i = 2; i <= N; i++) {
+		if (isPrime[i]) {
+			if (i >= M) {
+				cout << i << '\n';
+			}
+			for (long long j = i * 2; j <= N; j += i) {
+				isPrime[j] = false;
+			}
+		}
+	} 
+ 
+}
 <br/>
 
 ## :black_nib: **Review**
