@@ -14,8 +14,8 @@ $O(Nlog(logN))$
 
 ## :round_pushpin: **Logic**
 <br/>
-void isPrime(long long M, long long N) {
 
+void isPrime(long long M, long long N) {
 	bool* isPrime = new bool[N + 1];
  
 	for (long long i = 0; i <= N; i++) {
@@ -32,8 +32,8 @@ void isPrime(long long M, long long N) {
 			}
 		}
 	} 
- 
 }
+
 <br/>
 
 ## :black_nib: **Review**
