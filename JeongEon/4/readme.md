@@ -15,7 +15,7 @@ $O(N))$
 ## :round_pushpin: **Logic**
 <br/>
 
-for (int i = 1; i * i <= N; ++i)
+for (int i = 1; i * i <= N; ++i) <br/>
 	count++;
 
 <br/>
