@@ -16,6 +16,7 @@ $O(Nlog(logN))$
 <br/>
 
 void isPrime(long long M, long long N) {
+
 	bool* isPrime = new bool[N + 1];
  
 	for (long long i = 0; i <= N; i++) {
@@ -32,6 +33,7 @@ void isPrime(long long M, long long N) {
 			}
 		}
 	} 
+ 
 }
 
 <br/>
