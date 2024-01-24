@@ -13,10 +13,9 @@
 $O(Nlog(logN))$
 
 ## :round_pushpin: **Logic**
-
+<br/>
 void isPrime(long long M, long long N) { <br/>
 	bool* isPrime = new bool[N + 1]; <br/>
-<br/>
 	for (long long i = 0; i <= N; i++) { <br/>
 		isPrime[i] = true; <br/>
 	} <br/>
@@ -33,7 +32,7 @@ void isPrime(long long M, long long N) { <br/>
 		} <br/>
 	} <br/>
 } <br/>
-   
+<br/>
 
 ## :black_nib: **Review**
 - 없음
