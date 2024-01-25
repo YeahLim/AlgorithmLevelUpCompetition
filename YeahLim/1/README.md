@@ -1,39 +1,16 @@
-# [백준] 가장 긴 증가하는 부분 수열 (11053번)
+# [백준] 집합 (11723번)
 
 ## ⏰  **time**
-
-1시간
+15분
 
 ## :pushpin: **Algorithm**
-
-DP
+구현
 
 ## ⏲️**Time Complexity**
-
-$O(N^2)$
+$O(N)$
 
 ## :round_pushpin: **Logic**
-1. dp 초기화
-  ```
-		int[] dp = new int[n];
-		dp[0] = 1;
-  ```
-
-2. 점화식
-  ```
-    for (int i = 1; i < array.length; i++) {
-			
-			int min = 0;
-			for (int j = 0; j < i; j++) {
-				if (array[i] > array[j]) {
-					min = Math.max(min,  dp[j]);
-				}
-			}
-			
-			dp[i] = min + 1;
-		}
-  ```
-   
+hashset을 이용한 단순 구현
 
 ## :black_nib: **Review**
-- 스택 문제인줄알고 한참 고민했다... 다음부터 이런 문제 나오면 dp인거 바로 알아차리기~
+- 처음에는 바로바로 출력해 시간초과가 났다. stringbuilder를 이용해서 나중에 한번에 출력했더니 시간초과 없이 통과했다.
