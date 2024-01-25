@@ -10,7 +10,7 @@ BFS
 $O(N+M)$
 
 ## :round_pushpin: **Logic**
-- 1부터 N까지 for문으로 돌려서 방문안한 경우에만 count를 올린다. 이 count가 곧 연결 개수이다.
+- 1부터 N까지 for문으로 돌려서 방문안한 경우에만 count를 올린다. 이 count가 곧 연결 요소의 개수이다.
   ```
   		int answer = 0; // 연결 요소의 개수
   		
