@@ -3,9 +3,6 @@ import java.io.*;
 
 class Main {
 	
-	static List<Integer>[] graph;
-	static boolean[] visited;
-	
 	public static void main(String[] args) throws IOException {
 		
 		// N 초기화
