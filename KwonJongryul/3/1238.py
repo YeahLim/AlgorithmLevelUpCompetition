@@ -9,6 +9,8 @@ for _ in range(m):
 	graph[s].append((e, l))
 mx = 0
 for i in range(1, n+1):
+	if i == x:
+		continue
 	distance = [1e9] * (n+1)
 	q = []
 	heappush(q, (0, i))
