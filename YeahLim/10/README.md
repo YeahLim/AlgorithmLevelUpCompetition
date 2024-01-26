@@ -7,7 +7,7 @@
 순열
 
 ## ⏲️**Time Complexity**
-$O(N)$
+$O(N^2)$
 
 ## :round_pushpin: **Logic**
 순열 + 방문배열로 중복된 숫자 제거
