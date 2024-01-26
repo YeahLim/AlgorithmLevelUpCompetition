@@ -19,10 +19,11 @@ class Main {
 	}
 
 	private static long pow(int a, int b, int mod) {
+		
+		// 0승일 경우
 		if (b == 0) {
 			return 1;
 		}
-		
 		
 		long n = pow(a, b/2, mod); // 분할 계산
 		
