@@ -3,9 +3,6 @@ import java.io.*;
 
 class Main {
 	
-	static int size;
-	static int[][] map;
-	
 	public static void main(String[] args) throws IOException {
 		
 		// A, B, C 초기화
