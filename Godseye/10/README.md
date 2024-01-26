@@ -1,0 +1,19 @@
+# [백준] 리모컨 (1107번)
+
+## ⏰  **time**
+
+30분
+
+## :pushpin: **Algorithm**
+
+완탐
+
+## ⏲️**Time Complexity**
+
+$O(N)$
+
+## :round_pushpin: **Logic**
+
+## :black_nib: **Review**
+
+- 
