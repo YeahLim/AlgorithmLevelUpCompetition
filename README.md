@@ -55,9 +55,12 @@
   ```
   예시)
   각 언어 형식에 맞는 소스코드 : YeahLim/01/{파일명}.java  YeahLim/01/{파일명}.py  YeahLim/01/{파일명}.cpp
-  README.md : YeahLim/1/README.md
+  README.md : YeahLim/01/README.md
   ```
-  - commit message
+  - 커밋 규칙은 `문제번호_제목`으로 한다
+    ```
+    01_트리의 지름
+    ```
 
 
 ## 3. 달성 여부 확인
