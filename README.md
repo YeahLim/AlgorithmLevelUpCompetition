@@ -10,19 +10,19 @@
 # 📌기간
 - **제 1회 [24.01.08 - 24.01.12] (완료)**
 - **제 2회 [24.01.24 - 24.01.26] (완료)**
-- **제 3회 [24.02.02 - 24.02.08] (예정)**
+- **제 3회 [24.02.02 - 24.02.08] (진행중)**
 
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)|
-|[Godseye93](https://github.com/Godseye93)|
-|[KwonJongryul](https://github.com/KwonJongryul)|
-|[SuHyun](https://github.com/khnemu11)|
-|[JaeHyung](https://github.com/sonesonjabgo)|
-|[JeongEon](https://github.com/JeongEon8)|
+|[YeahLim](https://github.com/YeahLim)| class4+, class 3++, 구현 문제 총 15문제 풀기
+|[Godseye93](https://github.com/Godseye93)| 하루에 3문제씩 21문제 풀기
+|[KwonJongryul](https://github.com/KwonJongryul)|17문제 풀기
+|[SuHyun](https://github.com/khnemu11)|실버,골드 제출순 많은 순서로 21문제 풀기
+|[JaeHyung](https://github.com/sonesonjabgo)| 15문제 풀기
+|[JeongEon](https://github.com/JeongEon8)| 골드 4문제+실버 12문제 풀기
 
 
 
@@ -55,7 +55,12 @@
   ```
   예시)
   각 언어 형식에 맞는 소스코드 : YeahLim/01/{파일명}.java  YeahLim/01/{파일명}.py  YeahLim/01/{파일명}.cpp
-  README.md : YeahLim/1/README.md
+  README.md : YeahLim/01/README.md
+  ```
+- 커밋 규칙은 `문제번호_제목`으로 한다
+  ```
+  예시)
+  01_트리의 지름
   ```
 
 
