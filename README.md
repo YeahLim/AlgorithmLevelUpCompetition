@@ -19,7 +19,7 @@
 |------|---|
 |[YeahLim](https://github.com/YeahLim)|
 |[Godseye93](https://github.com/Godseye93)|
-|[KwonJongryul](https://github.com/KwonJongryul)|
+|[KwonJongryul](https://github.com/KwonJongryul)|20문제 풀기
 |[SuHyun](https://github.com/khnemu11)|
 |[JaeHyung](https://github.com/sonesonjabgo)|
 |[JeongEon](https://github.com/JeongEon8)|
