@@ -12,4 +12,3 @@ for _ in range(m):
         print(arr[j-1] - arr[i-2])
     else:
         print(arr[j-1])
-print(arr)
