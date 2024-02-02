@@ -57,7 +57,7 @@
   각 언어 형식에 맞는 소스코드 : YeahLim/01/{파일명}.java  YeahLim/01/{파일명}.py  YeahLim/01/{파일명}.cpp
   README.md : YeahLim/01/README.md
   ```
-- 커밋 규칙은 `문제번호_제목`으로 한다
+- 커밋 규칙은 `문제순서_제목`으로 한다
   ```
   예시)
   01_트리의 지름
