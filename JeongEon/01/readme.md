@@ -14,9 +14,8 @@ $O(N^2)$
 
 ## :round_pushpin: **Logic**
 
-- merge_sort()
+- Merge_Sort(int* arr, int p, int r)
 '''  
-  void Merge_Sort(int* arr, int p, int r) {
 	  if (p < r) {
 		  i nt q = (int)floor((p + r) / 2);
 
@@ -24,7 +23,6 @@ $O(N^2)$
 		  Merge_Sort(arr, q + 1, r);
 		  Merge(arr, p, q, r);
 	  }
-  }
 '''
 
 ## :black_nib: **Review**
