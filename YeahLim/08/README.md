@@ -16,20 +16,20 @@ $O(NlogN)$
   ```
   while (min <= max) {
 			
-			int mid = (min + max) / 2;
-			...
+		int mid = (min + max) / 2;
+		..
 
-			// 더 적은 양의 나무가 필요할 떄
-			if (total >= M) {
-				min = mid + 1;
-			}
-			
-			// 더 많은 양의 나무가 필요할 때
-			else {
-				max = mid - 1;
-			}
+		// 더 적은 양의 나무가 필요할 떄
+		if (total >= M) {
+			min = mid + 1;
 		}
-```
+		
+		// 더 많은 양의 나무가 필요할 때
+		else {
+			max = mid - 1;
+		}
+	}
+	```
 
 ## :black_nib: **Review**
 - 이분탐색 거의 푼 적 없는데 풀어봤다..! 투포인터랑 비슷한 느낌
