@@ -17,7 +17,7 @@
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| class4+, class 3++, 구현 문제 총 15문제 풀기
+|[YeahLim](https://github.com/YeahLim)| 구현 1문제, 실버2이상 3문제 풀기
 |[Godseye93](https://github.com/Godseye93)| 하루에 3문제씩 21문제 풀기
 |[KwonJongryul](https://github.com/KwonJongryul)|12문제 풀기
 |[JaeHyung](https://github.com/sonesonjabgo)| 12문제 풀기
