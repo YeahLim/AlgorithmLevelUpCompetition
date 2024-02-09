@@ -20,11 +20,10 @@
 |[YeahLim](https://github.com/YeahLim)| class4+, class 3++, 구현 문제 총 15문제 풀기
 |[Godseye93](https://github.com/Godseye93)| 하루에 3문제씩 21문제 풀기
 |[KwonJongryul](https://github.com/KwonJongryul)|12문제 풀기
-|[SuHyun](https://github.com/khnemu11)|실버,골드 제출순 많은 순서로 21문제 풀기
 |[JaeHyung](https://github.com/sonesonjabgo)| 12문제 풀기
 |[JeongEon](https://github.com/JeongEon8)| 실버 15문제 풀기
-
-
+|[JinWoo](https://github.com/rttitity)| 단계별 문제풀이 25문제 풀기
+|[SuHyun](https://github.com/khnemu11)|그리디 9문제, 구현 3문제
 
 <br>
 
