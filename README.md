@@ -24,6 +24,7 @@
 |[JeongEon](https://github.com/JeongEon8)| 실버 15문제 풀기
 |[JinWoo](https://github.com/rttitity)| 단계별 문제풀이 25문제 풀기
 |[SuHyun](https://github.com/khnemu11)|그리디 9문제, 구현 3문제
+|[HyoJin](https://github.com/hjin2)|투포인터 10문제 풀기
 
 <br>
 
