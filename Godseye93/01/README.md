@@ -1,12 +1,12 @@
-# [백준]  (번)
+# [백준]  수들의 합(2003번)
 
 ## ⏰  **time**
 
-10분
+30분
 
 ## :pushpin: **Algorithm**
 
-
+두 포인터
 
 ## ⏲️**Time Complexity**
 
