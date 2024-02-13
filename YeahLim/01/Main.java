@@ -74,7 +74,7 @@ class Main {
 		
 		System.out.println(answer == 0 ? "TT" : answer);
 		
-	}
+	} 
 
 }
 
