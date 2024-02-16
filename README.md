@@ -11,21 +11,21 @@
 - 제 1회 [24.01.08 - 24.01.12] (완료)
 - 제 2회 [24.01.24 - 24.01.26] (완료)
 - 제 3회 [24.02.02 - 24.02.08] (완료)
-- **제 4회 [24.02.13 - 24.02.16] (진행중)**
-
+- 제 4회 [24.02.13 - 24.02.16] (완료)
+- **제 5회 [24.02.19 - 24.02.23] (예정)**
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| 구현 1문제, 실버2이상 3문제 풀기
-|[Godseye93](https://github.com/Godseye93)| 하루에 3문제씩 12문제 풀기
-|[KwonJongryul](https://github.com/KwonJongryul)|12문제 풀기
-|[JaeHyung](https://github.com/sonesonjabgo)| 5문제 풀기
-|[JeongEon](https://github.com/JeongEon8)| 실버 15문제 풀기
-|[JinWoo](https://github.com/rttitity)| 단계별 문제풀이 25문제 풀기
-|[SuHyun](https://github.com/khnemu11)|그리디 9문제, 구현 3문제
-|[HyoJin](https://github.com/hjin2)|투포인터 10문제 풀기
+|[YeahLim](https://github.com/YeahLim)| 구현 1문제, 비구현 1문제
+|[Godseye93](https://github.com/Godseye93)| 골드 5문제, 실버 10문제
+|[KwonJongryul](https://github.com/KwonJongryul)| 15문제
+|[JaeHyung](https://github.com/sonesonjabgo)| 5문제
+|[JeongEon](https://github.com/JeongEon8)| 실버 4문제, 골드 6문제
+|[JinWoo](https://github.com/rttitity)| 브루트포스, 정렬, 투포인터(1문제 제외) 완료 
+|[SuHyun](https://github.com/khnemu11)| 골드 10문제
+|[HyoJin](https://github.com/hjin2)| 클래스3 12문제
 
 <br>
 
