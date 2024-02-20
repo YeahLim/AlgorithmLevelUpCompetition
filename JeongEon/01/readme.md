@@ -10,7 +10,7 @@
 
 ## ⏲️**Time Complexity**
 
-$O(N^M^T)$
+$O((N^M)^T)$
 
 ## :round_pushpin: **Logic**
 
