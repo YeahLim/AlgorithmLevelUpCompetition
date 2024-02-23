@@ -21,7 +21,7 @@
 |[YeahLim](https://github.com/YeahLim)| 구현 1문제, 비구현 1문제
 |[Godseye93](https://github.com/Godseye93)| 골드 5문제, 실버 5문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 15문제
-|[JaeHyung](https://github.com/sonesonjabgo)| 5문제
+|[JaeHyung](https://github.com/sonesonjabgo)| 실버 이상 10문제
 |[JeongEon](https://github.com/JeongEon8)| 실버 4문제, 골드 6문제
 |[JinWoo](https://github.com/rttitity)| 브루트포스, 정렬, 투포인터(1문제 제외) 완료 
 |[SuHyun](https://github.com/khnemu11)| 골드 10문제
