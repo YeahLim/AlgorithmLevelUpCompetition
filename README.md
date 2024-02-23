@@ -24,7 +24,7 @@
 |[JaeHyung](https://github.com/sonesonjabgo)| 실버 이상 10문제
 |[JeongEon](https://github.com/JeongEon8)| 실버 4문제, 골드 6문제
 |[JinWoo](https://github.com/rttitity)| 브루트포스, 정렬, 투포인터(1문제 제외) 완료 
-|[SuHyun](https://github.com/khnemu11)| 골드 10문제
+|[SuHyun](https://github.com/khnemu11)| 구현 4문제, 실버/골드 문제 6문제
 |[HyoJin](https://github.com/hjin2)| 클래스3 12문제
 
 <br>
