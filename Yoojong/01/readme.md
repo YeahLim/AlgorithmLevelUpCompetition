@@ -1,14 +1,21 @@
-[백준] 블랙잭 (2798번🩶5️⃣)
-⏰ time
+# [백준] 블랙잭 (2798번🩶5️⃣)
+
+## ⏰ **time**
+
 20분
 
-📌 Algorithm
+## 📌 **Algorithm**
+
 브루트포스 알고리즘
 
-⏲️Time Complexity
-O(n^3)
-📍 Logic
+## ⏲️**Time Complexity**
+
+$O(n^3)$
+
+## :round_pushpin: **Logic**
+
 모두 확인
+```
 n, m = map(int, input().split())
 cards = list(map(int,input().split()))
 cards = sorted(cards)
@@ -21,6 +28,7 @@ for i in range(n-2):    #처음꺼
             if ans <= m:
                 ans_list.append(ans)
 print(max(ans_list))
+```
 
-✒️ Review
+## :black_nib: **Review**
 이렇게 하지말고 from itertools imoprt combination 해서 푸는게 좋을 것 같다.
