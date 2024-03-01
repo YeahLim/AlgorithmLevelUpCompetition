@@ -27,7 +27,7 @@
 |[JinWoo](https://github.com/rttitity)| 스텍-큐-덱 11문제 + 정렬 5문제 (총 16문제)
 |[SuHyun](https://github.com/khnemu11)| 골드 3 이상 (총 5문제)
 |[HyoJin](https://github.com/hjin2)| 골드 5문제, 실버 5문제
-|[Yoojong](https://github.com/YoojongChoi)|브루트포스+정렬 총 15문제
+|[Yoojong](https://github.com/YoojongChoi)| 골드 1문제 + 실버 4문제 (총 5문제)
 
 <br>
 
