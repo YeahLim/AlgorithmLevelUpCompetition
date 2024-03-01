@@ -26,7 +26,7 @@
 |[JeongEon](https://github.com/JeongEon8)| BFS 5문제 + DFS 5문제
 |[JinWoo](https://github.com/rttitity)| 스텍-큐-덱 11문제 + 정렬 5문제 (총 16문제)
 |[SuHyun](https://github.com/khnemu11)| 골드 3 이상 (총 5문제)
-|[HyoJin](https://github.com/hjin2)| 골드 8문제
+|[HyoJin](https://github.com/hjin2)| 백트래킹, 그래프 골드 8문제
 |[Yoojong](https://github.com/YoojongChoi)| 골드 1문제 + 실버 4문제 (총 5문제)
 
 <br>
