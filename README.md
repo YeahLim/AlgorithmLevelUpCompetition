@@ -23,9 +23,9 @@
 |[Godseye93](https://github.com/Godseye93)| 골드 5문제, 실버 5문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 15문제
 |[JaeHyung](https://github.com/sonesonjabgo)| 실버 이상 10문제
-|[JeongEon](https://github.com/JeongEon8)| 투포인터+슬라이딩윈도우+냅색문제 총 15문제
-|[JinWoo](https://github.com/rttitity)| 브루트포스, 정렬, 투포인터(1문제 제외) 완료 
-|[SuHyun](https://github.com/khnemu11)| 구현 4문제, 실버/골드 문제 6문제
+|[JeongEon](https://github.com/JeongEon8)| BFS 5문제 + DFS 5문제
+|[JinWoo](https://github.com/rttitity)| 스텍-큐-덱 11문제 + 정렬 5문제 (총 16문제)
+|[SuHyun](https://github.com/khnemu11)| 골드 3 이상 (총 5문제)
 |[HyoJin](https://github.com/hjin2)| 골드 5문제, 실버 5문제
 |[Yoojong](https://github.com/YoojongChoi)|브루트포스+정렬 총 15문제
 
