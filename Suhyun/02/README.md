@@ -22,7 +22,8 @@ $O(N*K)$
 => Map 이용
 
 
-
+2. 상세 풀이과정
+https://khnemu.tistory.com/21
 
 ## :black_nib: **Review**
 - 문자열을 반복할 때 String.repeat를 사용하자
