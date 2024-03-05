@@ -10,12 +10,12 @@
 
 ## ⏲️**Time Complexity**
 
-$O(N^)$
+$O(N^N)$
 
 ## :round_pushpin: **Logic**
-- (dfs) 처음에는 모든 수열을 구한 후, 비내림차순인 경우를 필터로 걸러주려고 했다. 
+- **(dfs)** 처음에는 모든 수열을 구한 후, 비내림차순인 경우를 필터로 걸러주려고 했다. 
     - 하지만 비내림차순을 다시 걸러주는 것은 너무 비효율적
-- (Backtracking) `i`를 `index`값으로 그대로 가져와주면, 중복이 가능한 비내림차순이 된다
+- **(Backtracking)** `i`를 `index`값으로 그대로 가져와주면, 중복이 가능한 비내림차순이 된다
     
     ```
         private static void permutation(int index, int count, int[] array) {
