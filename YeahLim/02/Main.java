@@ -37,7 +37,7 @@ public class Main {
 		}
 		
 		
-		// K번 이돟
+		// K번 이동
 		while (K-- > 0) {
 			
 			// newMap 초기화
