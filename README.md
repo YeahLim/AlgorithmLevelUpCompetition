@@ -25,7 +25,7 @@
 |[KwonJongryul](https://github.com/KwonJongryul)| 5문제
 |[JaeHyung](https://github.com/sonesonjabgo)| 실버 이상 5문제
 |[JeongEon](https://github.com/JeongEon8)| BFS&DFS 골드 5문제 + 분할정복 실버 5문제
-|[JinWoo](https://github.com/rttitity)| 스텍-큐-덱 11문제 + 정렬 5문제 (총 16문제)
+|[JinWoo](https://github.com/rttitity)| 스텍-큐-덱 완료 (하루 2문제씩 총 8문제)
 |[SuHyun](https://github.com/khnemu11)| 실버 2, 골드 2 (총 4문제)
 |[HyoJin](https://github.com/hjin2)| 백트래킹, 그래프 골드 8문제
 |[Yoojong](https://github.com/YoojongChoi)| 골드 4문제 + 실버 4문제 (총 8문제)
