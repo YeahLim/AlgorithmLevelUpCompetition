@@ -49,7 +49,7 @@ public class March07_2668 {
         // n과 연결된 노드 찾기
         int num = arr.get(n).get(0);
         if (visited[num]) {// 근데 이미 방문한 곳인 경우
-            // 시작점과 비교
+            // 시작점과 비교 
             if (start == num) { // 동일하면 정답에 해당 연결요소 노드들 다 저장
                 results.add(num);
                 return;
