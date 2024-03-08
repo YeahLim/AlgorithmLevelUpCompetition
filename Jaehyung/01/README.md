@@ -21,7 +21,6 @@ O(N)
   let result = B.map((v) => (array.has(v) ? 1 : 0));
   
   console.log(result.join("\n"));
-  
   ```
 
 ## :black_nib: **Review**
