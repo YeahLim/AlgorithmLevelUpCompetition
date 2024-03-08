@@ -21,7 +21,7 @@
 |아이디|목표|
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 구현 1문제, 비구현 1문제
-|[Godseye93](https://github.com/Godseye93)| 골드 5문제, 실버 5문제
+|[Godseye93](https://github.com/Godseye93)| 골드 4문제, 실버 4문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 10문제
 |[JaeHyung](https://github.com/sonesonjabgo)| 실버 이상 5문제
 |[JeongEon](https://github.com/JeongEon8)| BFS 5문제 + DFS 5문제
