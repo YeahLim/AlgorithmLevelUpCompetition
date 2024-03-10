@@ -14,7 +14,8 @@
 - 제 4회 [24.02.13 - 24.02.16] (완료)
 - 제 5회 [24.02.19 - 24.02.23] (완료)
 - 제 6회 [24.02.26 - 24.03.01] (완료)
-- **제 7회 [24.03.04 - 24.03.08] (진행중)**
+- 제 7회 [24.03.04 - 24.03.08] (완료)
+- **제 8회 [24.03.11 - 24.03.14] (예정)**
 <br>
 
 # 📌목표
@@ -23,11 +24,11 @@
 |[YeahLim](https://github.com/YeahLim)| 구현 1문제, 비구현 1문제
 |[Godseye93](https://github.com/Godseye93)| 골드 4문제, 실버 4문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 5문제
-|[JaeHyung](https://github.com/sonesonjabgo)| 실버 이상 5문제
+|[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| BFS&DFS 골드 5문제 + 분할정복 실버 5문제
 |[JinWoo](https://github.com/rttitity)| 스텍-큐-덱 완료 (하루 2문제씩 총 8문제)
 |[SuHyun](https://github.com/khnemu11)| 실버 2, 골드 2 (총 4문제)
-|[HyoJin](https://github.com/hjin2)| 9회 재참여
+|[HyoJin](https://github.com/hjin2)| -
 |[Yoojong](https://github.com/YoojongChoi)| 골드 4문제 + 실버 4문제 (총 8문제)
 
 <br>
