@@ -22,7 +22,7 @@
 |아이디|목표|
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 구현 1문제, 비구현 1문제
-|[Godseye93](https://github.com/Godseye93)| 골드 4문제, 실버 4문제
+|[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 3문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| BFS&DFS 골드 5문제 + 분할정복 실버 5문제
