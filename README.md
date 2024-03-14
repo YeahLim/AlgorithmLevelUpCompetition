@@ -23,7 +23,7 @@
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 구현 1문제, 비구현 1문제
 |[Godseye93](https://github.com/Godseye93)| 골드 4문제, 실버 4문제
-|[KwonJongryul](https://github.com/KwonJongryul)| 5문제
+|[KwonJongryul](https://github.com/KwonJongryul)| 3문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| BFS&DFS 골드 5문제 + 분할정복 실버 5문제
 |[JinWoo](https://github.com/rttitity)| 스텍-큐-덱 완료 (하루 2문제씩 총 8문제)
