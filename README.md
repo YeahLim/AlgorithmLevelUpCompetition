@@ -28,7 +28,7 @@
 |[JeongEon](https://github.com/JeongEon8)| 10문제
 |[JinWoo](https://github.com/rttitity)| 스텍-큐-덱 완료 (하루 2문제씩 총 8문제)
 |[SuHyun](https://github.com/khnemu11)| 실버 2, 골드 2 (총 4문제)
-|[HyoJin](https://github.com/hjin2)| -
+|[HyoJin](https://github.com/hjin2)| 실버 7, 골드 3
 |[Yoojong](https://github.com/YoojongChoi)| 실버 5문제
 
 <br>
