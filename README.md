@@ -24,7 +24,7 @@
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 구현 1문제, 비구현 1문제
 |[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
-|[KwonJongryul](https://github.com/KwonJongryul)| 3문제
+|[KwonJongryul](https://github.com/KwonJongryul)| 8문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| 10문제
 |[JinWoo](https://github.com/rttitity)| 하루 실버 1문제 풀기 (총 5문제)
