@@ -1,29 +1,35 @@
 import sys
-
+sys.setrecursionlimit(10000)
 def dfs(i,j, db, visited):
+    #out of index
     if j<0 or j>=n or i<0 or i>=m:
         return
-    visited[i][j] = True
-    if db[i][j] ==0:
+    if visited[i][j] == True or db[i][j]==0:
         return
+    visited[i][j] = True
+
     #left
-    dfs(i,j-1, db,visited)
+    if not (j-1<0):
+        dfs(i, j-1, db, visited)
     #right
-    dfs(i,j+1, db,visited)
+    if not (j+1 >=len(db[0])):
+        dfs(i, j+1, db, visited)
     #up
-    dfs(i-1,j,db, visited)
+    if not(i-1<0):
+        dfs(i-1, j, db, visited)
     #down
-    dfs(i+1,j,db,visited)
+    if not(i+1>= len(db)):
+        dfs(i+1, j, db, visited)
 
-T = int(sys.stdin.readline())
-
+T = int(input())
+ans_li = list()
 for _ in range(T):
     #setting
-    m, n, k = map(int, sys.stdin.readline().split())
+    m, n, k = map(int, input().split())
     db = [ [0 for i in range(n)] for j in range(m)]
     visited = [ [False for i in range(n)] for j in range(m)]
     for _ in range(k):
-        i, j = map(int, sys.stdin.readline().split())
+        i, j = map(int, input().split())
         db[i][j] = 1
 
     count=0
@@ -35,14 +41,10 @@ for _ in range(T):
             dfs(i,j, db, visited)
             count +=1
 
-    #visualize
-    for i in range(m):
-        print(db[i])
 
-    for i in range(m):
-        print(visited[i])
-
-    print(count)
+    ans_li.append(count)
+for i in ans_li:
+    print(i)
 
 
 
