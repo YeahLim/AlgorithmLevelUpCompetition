@@ -7,7 +7,7 @@
 ## :pushpin: **Algorithm**
 
 자료 구조
-큐
+덱
 
 ## ⏲️**Time Complexity**
 
