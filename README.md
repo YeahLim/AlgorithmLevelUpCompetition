@@ -16,7 +16,8 @@
 - 제 6회 [24.02.26 - 24.03.01] (완료)
 - 제 7회 [24.03.04 - 24.03.08] (완료)
 - 제 8회 [24.03.11 - 24.03.14] (완료)
-- **제 9회 [24.03.18 - 24.03.22] (진행중)**
+- 제 9회 [24.03.18 - 24.03.22] (완료)
+- **제 10회 [24.03.25 - 24.03.29] (진행중)**
 <br>
 
 # 📌목표
@@ -26,7 +27,7 @@
 |[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 8문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
-|[JeongEon](https://github.com/JeongEon8)| 10문제
+|[JeongEon](https://github.com/JeongEon8)| -
 |[JinWoo](https://github.com/rttitity)| 하루 실버 1문제 풀기 (총 5문제)
 |[SuHyun](https://github.com/khnemu11)| 실버 3, 골드 2 (총 5문제)
 |[HyoJin](https://github.com/hjin2)| 실버 7, 골드 3
