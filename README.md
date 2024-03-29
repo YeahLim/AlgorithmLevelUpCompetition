@@ -30,7 +30,7 @@
 |[JeongEon](https://github.com/JeongEon8)| 골드 5문제 + 실버 5문제 (총 10문제)
 |[JinWoo](https://github.com/rttitity)| 하루 실버 1문제 풀기 (총 5문제)
 |[SuHyun](https://github.com/khnemu11)| 실버 3, 골드 2 (총 5문제)
-|[HyoJin](https://github.com/hjin2)| 실버 7, 골드 3
+|[HyoJin](https://github.com/hjin2)| 골드 4
 |[Yoojong](https://github.com/YoojongChoi)| 실버 5문제
 
 <br>
