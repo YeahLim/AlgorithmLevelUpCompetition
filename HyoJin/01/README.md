@@ -1,14 +1,14 @@
-[백준 - 실버4] 스택 (10828번)
-⏰ time
+# [백준 - 실버4] 스택 (10828번)
+## ⏰ time
 10분
 
-📌 Algorithm
+## 📌 Algorithm
 구현
 
-⏲️Time Complexity
+## ⏲️Time Complexity
 
-📍 Logic
+## 📍 Logic
 스택
 
-✒️ Review
+## ✒️ Review
 스택 그 자체
