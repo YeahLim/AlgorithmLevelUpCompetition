@@ -1,14 +1,14 @@
-# [백준 - 실버 3 ] 등수 매기기 (2012번)
+# [백준 - 실버 5 ] 피보나치 수 4 (10826번)
 
-https://www.acmicpc.net/problem/2012
+https://www.acmicpc.net/problem/10826
 
 ## ⏰ **time**
 
-30분
+10분
 
 ## :pushpin: **Algorithm**
 
-그리디
+dp
 
 ## ⏲️**Time Complexity**
 
@@ -16,8 +16,8 @@ $O(N)$
 
 ## :round_pushpin: **Logic**
 
-1. 정렬 후, 예상등수와 매긴 등수를 절댓값으로 더해가면 된다.
+1. 규칙이 문제에 다 나와 있어서 그대로 구현하면 된다.
 
 ## :black_nib: **Review**
 
-- python에선 쉽게 풀었고 똑같은 로직인데 이상하게 nodejs에선 틀렸다. 이유를 찾아보니 sort가 js에서는 다르게 동작해서 추가적인 구문을 써줘야 했다.
+- js에 bigInt라는게 있는지 처음 알았다.. 파도파도 끝이 없는것 같다.
