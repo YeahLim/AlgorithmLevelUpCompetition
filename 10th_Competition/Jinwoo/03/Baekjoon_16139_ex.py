@@ -8,7 +8,7 @@ n = int(input())                                                                
 
 sum_list = [[0 for i in range(26)] for i in range(len(Str))]                      # 문자열의 값과 그 값 알파벳의 아스키코드값을 저장할 2차원 배열
 sum_list[0][ord(Str[0]) - 97] = 1                                                 # 누적합 r - l을 위해 0번째 값을 예외 처리 한다.
-#print(sum_list)
+print(sum_list)
 
 for i in range(1, len(Str)):                                                      # 입력받은 문자열을
     sum_list[i][ord(Str[i]) - 97] = 1                                             # i번째의 아스키코드 인덱스값을 1로 만든다.
