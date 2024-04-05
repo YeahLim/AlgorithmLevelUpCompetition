@@ -29,7 +29,7 @@
 |[KwonJongryul](https://github.com/KwonJongryul)| 5문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| SWEA D2 10문제 + D3 7문제
-|[JinWoo](https://github.com/rttitity)| 하루 실버 1문제 풀기 (총 5문제)
+|[JinWoo](https://github.com/rttitity)| 실버 5문제 + 골드 1문제
 |[SuHyun](https://github.com/khnemu11)| 실버 3, 골드 2 (총 5문제)
 |[HyoJin](https://github.com/hjin2)| 골드 4
 |[Yoojong](https://github.com/YoojongChoi)| 실버 5문제
