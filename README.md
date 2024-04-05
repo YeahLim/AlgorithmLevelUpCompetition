@@ -24,7 +24,7 @@
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| 구현 1문제, 비구현 1문제
+|[YeahLim](https://github.com/YeahLim)| 백준 골드 1문제, 코드트리 2문제
 |[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 5문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
@@ -74,6 +74,6 @@
 
 ## 3. 달성 여부 확인
 - 화면 공유를 통해 달성 여부를 확인한다
-- 50% 이상 미달성자는 5000원의 벌금을 납부한다
-- 50% 미만 미달성자는 10000원의 벌금을 납부한다
+- 50% 이상 미달성자는 10000원의 벌금을 납부한다
+- 50% 미만 미달성자는 20000원의 벌금을 납부한다
 - 달성자들은 총 벌금의 1/N만큼씩 수령한다
