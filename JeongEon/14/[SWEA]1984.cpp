@@ -1,7 +1,7 @@
-// Á¦ 12È¸ ¾Ë°í¸®Áò ½ºÅÍµð
+// ì œ 12íšŒ ì•Œê³ ë¦¬ì¦˜ ìŠ¤í„°ë””
 // SWEA D2
-// ¹®Á¦¸í: Áß°£ Æò±Õ°ª ±¸ÇÏ±â
-// ¹®Á¦¹øÈ£: 1984¹ø
+// ë¬¸ì œëª…: ì¤‘ê°„ í‰ê· ê°’ êµ¬í•˜ê¸°
+// ë¬¸ì œë²ˆí˜¸: 1984ë²ˆ
 
 #include <iostream>
 #include <vector>
@@ -11,10 +11,6 @@
 using namespace std;
 
 int main() {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
-
 	int T;
 	cin >> T;
 
