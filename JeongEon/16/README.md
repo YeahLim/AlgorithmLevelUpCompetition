@@ -1,4 +1,4 @@
-# [SWEA] [S/W 문제해결 기본] 1일차 - Flatten (1208번 D2️⃣)
+# [SWEA] [S/W 문제해결 기본] 1일차 - Flatten (1208번 D3️⃣)
 
 ## ⏰  **time**
 
