@@ -6,7 +6,7 @@
 
 ## :pushpin: **Algorithm**
 
-DP
+트리 DP
 
 ## ⏲️**Time Complexity**
 
