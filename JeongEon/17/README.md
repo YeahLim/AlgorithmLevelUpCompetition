@@ -6,14 +6,14 @@
 
 ## :pushpin: **Algorithm**
 
-DP 넵색..?
+DP
 
 ## ⏲️**Time Complexity**
 
 $O(N*L)$
 
 ## :round_pushpin: **Logic**
-1. 일정 칼로리 넘어가지 않게 넣는다.
+1. 일정 칼로리 넘어가지 않게 넣는다. Knapsack
 ```cpp
         for (int i = 1; i <= N; i++) {
             for (int j = 1; j <= L; j++) {
@@ -34,3 +34,4 @@ $O(N*L)$
 
 ## :black_nib: **Review**
 - 흠..  어렵다...
+- 사실 이해 못하고 답 찾았다...
