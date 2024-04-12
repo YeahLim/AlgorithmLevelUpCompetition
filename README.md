@@ -4,7 +4,6 @@
 - 알고리즘 집중 기간 동안, 한번에 실력을 크게 향상시킬 수 있다
 - 알고리즘은 장기간 싸움인데, 단기간 스터디인만큼 부담감이 줄어든다
 - 각자에게 맞는 수준으로 알고리즘 스터디를 진행할 수 있다
-
 <br>
 
 # 📌기간
@@ -19,24 +18,23 @@
 - 제 9회 [24.03.18 - 24.03.22] (완료)
 - 제 10회 [24.03.25 - 24.03.29] (완료)
 - 제 11회 [24.04.01 - 24.04.05] (완료)
-- **제 12회 [24.04.08 - 24.04.12] (진행중)**
+- 제 12회 [24.04.08 - 24.04.12] (완료)
+- **제 13회 [24.04.16 - 24.04.18] (예정)**
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| 백준 골드 1문제, 코드트리 2문제
-|[Godseye93](https://github.com/Godseye93)| 골드 6문제, 실버 4문제
-|[KwonJongryul](https://github.com/KwonJongryul)| 10문제(골2실8)
+|[YeahLim](https://github.com/YeahLim)| 백준 골드 1문제
+|[Godseye93](https://github.com/Godseye93)| 골드 2문제, 실버 1문제
+|[KwonJongryul](https://github.com/KwonJongryul)| 실버 3문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
-|[JeongEon](https://github.com/JeongEon8)| SWEA D2 10문제 + D3 7문제
-|[JinWoo](https://github.com/rttitity)| 실버 5문제 + 골드 1문제
-|[SuHyun](https://github.com/khnemu11)| 골드 12문제
-|[HyoJin](https://github.com/hjin2)| 실버 6, 골드 2(총 8문제)
+|[JeongEon](https://github.com/JeongEon8)| SWEA D2 3문제 + D3 3문제
+|[JinWoo](https://github.com/rttitity)| 실버 2문제, 골드 1문제
+|[SuHyun](https://github.com/khnemu11)| 골드 2문제
+|[HyoJin](https://github.com/hjin2)| 실버 2, 골드 1
 |[Yoojong](https://github.com/YoojongChoi)| -
-
 <br>
-
 
 
 # 📌진행 절차
@@ -75,6 +73,6 @@
 
 ## 3. 달성 여부 확인
 - 화면 공유를 통해 달성 여부를 확인한다
-- 50% 이상 미달성자는 10000원의 벌금을 납부한다
-- 50% 미만 미달성자는 20000원의 벌금을 납부한다
+- 50% 이상 미달성자는 5000원의 벌금을 납부한다
+- 50% 미만 미달성자는 10000원의 벌금을 납부한다
 - 달성자들은 총 벌금의 1/N만큼씩 수령한다
