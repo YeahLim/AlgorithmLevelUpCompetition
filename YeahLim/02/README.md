@@ -7,7 +7,7 @@
 구현
 
 ## ⏲️**Time Complexity**
-$O(N^2)$
+$O(N)$
 
 ## :round_pushpin: **Logic**
 1. 8방향과 4방향을 같이 쓰는 방법
