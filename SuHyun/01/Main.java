@@ -1,3 +1,4 @@
+import java.util.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.time.LocalDate;
@@ -5,93 +6,108 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class Main {
+    static boolean[] visited;
+    static Deque<Integer> stack;
+    static List<Integer> graph[];
+    static boolean[] circle;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
+        graph = new ArrayList[N+1];
+        visited = new boolean[N+1];
+        stack = new ArrayDeque<>();
+        circle = new boolean[N+1];
 
-        Flower[] flowers = new Flower[N+1];
-        int idx = 0;
-
-        PriorityQueue<Flower> pq = new PriorityQueue<>();
-
-        for(int i=0;i<N;i++){
+        for(int i=1;i<=N;i++){
+            graph[i] = new ArrayList<>();
+        }
+        for(int i=1;i<=N;i++){
             StringTokenizer st = new StringTokenizer(br.readLine());
+            int start = Integer.parseInt(st.nextToken());
+            int end = Integer.parseInt(st.nextToken());
 
-            pq.add(new Flower(
-                    LocalDate.of(2020,Integer.parseInt(st.nextToken()),Integer.parseInt(st.nextToken()))
-                    ,LocalDate.of(2020,Integer.parseInt(st.nextToken()),Integer.parseInt(st.nextToken()))));
+            graph[start].add(end);
+            graph[end].add(start);
         }
 
-        //다음 피어야 하는 꽃의 시간
-        LocalDate start = LocalDate.of(2020,3,1);
-        LocalDate end = LocalDate.of(2020,12,1);
-        boolean valid = true;
-        int count = 0;
+        findCircle(1,1);
 
-        //출발 꽃 찾기
-        while(start.isBefore(end) ){
-            boolean find = false;
+        int[] distance = new int[N+1];
 
-            //가장 긴 마지막 꽃이 지는 시간
-            LocalDate tempEnd = start;
+        for(int start = 1;start<=N;start++){
+            visited = new boolean[N+1];
 
-            while(!pq.isEmpty()){
-                //현재 꽃이 피는 시간보다 피어야 하는 꽃의 시간보다 늦게 피면 꽃이 없는 공백기간이므로 현재 시간에서 가능한 경우의 수는 다 찾아봤다
-                if(pq.peek().start.isAfter(start)){
+            Queue<Time> q = new LinkedList<>();
+            q.add(new Time(start,0));
+
+            while(!q.isEmpty()){
+                Time curr = q.poll();
+
+                if(circle[curr.station]){
+                    distance[start] = curr.time;
                     break;
                 }
 
-                Flower curr = pq.poll();
-                //현재 꽃이 지는 시간이 탐색한 꽃 중 가장 늦게 지는 시간보다 길면 더 오래 꽃이 피기 때문에 현재 꽃을 채택한다.
-                if(curr.end.isAfter(tempEnd)) {
-                    tempEnd  = curr.end;
-                    find = true; //현재 피어야하는 꽃을 찾음
+                for(int next : graph[curr.station]){
+                    if(visited[next]){
+                        continue;
+                    }
+
+                    visited[next] = true;
+                    q.add(new Time(next,curr.time+1));
                 }
             }
+        }
 
-            //현재 피어야할 꽃을 찾은 경우
-            if(find){
-                //현재 꽃들이 피면 tempEnd -1일까지 핀다.
-                //그러므로 다음 꽃은 최소 tempEnd일 부터 펴야한다.
-                start = tempEnd;
-                count++;
+        StringBuilder sb = new StringBuilder();
+
+        for(int i=1;i<=N;i++){
+            sb.append(distance[i]+" ");
+        }
+
+        sb.deleteCharAt(sb.length()-1);
+        System.out.println(sb);
+    }
+
+    public static void findCircle(int before, int curr){
+        visited[curr] = true;
+        stack.addLast(curr);
+
+        for(int next : graph[curr]){
+            if(next == before){
+                continue;
+            }
+            if(circle[next]){
+                continue;
+            }
+
+            if(visited[next]){
+                while(!stack.isEmpty()){
+                    int circleStation = stack.pollLast();
+                    circle[circleStation] = true;
+
+                    if(circleStation == next){
+                        break;
+                    }
+                }
             }else{
-                valid= false;
-                break;
+                findCircle(curr,next);
             }
         }
 
-        if(valid){
-            System.out.println(count);
-        }else{
-            System.out.println(0);
+        if(!stack.isEmpty() && stack.peekLast() == curr){
+            stack.pollLast();
         }
-
     }
 }
+class Time{
+    int station;
+    int time;
 
-class Flower implements Comparable<Flower>{
-    LocalDate start;
-    LocalDate end;
-
-    public Flower(LocalDate start, LocalDate end){
-        this.start = start;
-        this.end = end;
-    }
-
-    @Override
-    public int compareTo(Flower o) {
-        if(this.start.equals(o.start)) {
-            if(this.end.isBefore(o.end)){
-                return -1;
-            }
-            return 1;
-        }else if(start.isBefore(o.start)){
-            return -1;
-        }
-
-        return 1;
+    public Time(int station, int time){
+        this.station = station;
+        this.time = time;
     }
 }
