@@ -26,7 +26,7 @@
 |아이디|목표|
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 백준 골드 1문제
-|[Godseye93](https://github.com/Godseye93)| 골드 2문제, 실버 1문제
+|[Godseye93](https://github.com/Godseye93)| 골드 2문제, 실버 2문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 4문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| SWEA D2 4문제 + D3 4문제
