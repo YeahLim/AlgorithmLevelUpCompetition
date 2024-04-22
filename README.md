@@ -31,7 +31,7 @@
 |[KwonJongryul](https://github.com/KwonJongryul)| 4문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| SWEA D2 4문제 + D3 4문제
-|[JinWoo](https://github.com/rttitity)| 실버 2문제, 골드 1문제
+|[JinWoo](https://github.com/rttitity)| -
 |[SuHyun](https://github.com/khnemu11)| 골드 4문제
 |[HyoJin](https://github.com/hjin2)| 실버 2, 골드 2
 |[Yoojong](https://github.com/YoojongChoi)| -
