@@ -1,6 +1,6 @@
-// �˰����� �ڵ� ���͵� 14ȸ��
-// SWEA D3
-// 1979. ��� �ܾ �� �� ������
+// 알고리즘 코딩 스터디 14회차
+// SWEA D2
+// 1979. 어디에 단어가 들어갈 수 있을까
 
 #include <iostream>
 #include <vector>
