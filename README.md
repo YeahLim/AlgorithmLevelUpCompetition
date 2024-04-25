@@ -30,7 +30,7 @@
 |[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 4문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
-|[JeongEon](https://github.com/JeongEon8)| SWEA D2 4문제 + D3 4문제
+|[JeongEon](https://github.com/JeongEon8)| SWEA D2 3문제 + D3 12문제
 |[JinWoo](https://github.com/rttitity)| -
 |[SuHyun](https://github.com/khnemu11)| 골드 4문제
 |[HyoJin](https://github.com/hjin2)| 실버 3, 골드 2
