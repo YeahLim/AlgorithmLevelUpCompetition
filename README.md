@@ -27,7 +27,7 @@
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| 누적합 실버 2문제
+|[YeahLim](https://github.com/YeahLim)| 누적합 2문제
 |[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 4문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
