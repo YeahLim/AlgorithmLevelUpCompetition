@@ -20,7 +20,8 @@
 - 제 11회 [24.04.01 - 24.04.05] (완료)
 - 제 12회 [24.04.08 - 24.04.12] (완료)
 - 제 13회 [24.04.16 - 24.04.18] (완료)
-- **제 14회 [24.04.22 - 24.04.25] (진행중)**
+- 제 14회 [24.04.22 - 24.04.25] (완료)
+- **제 15회 [24.04.26 - 24.05.03] (예정)**
 <br>
 
 # 📌목표
@@ -32,7 +33,7 @@
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| SWEA D2 3문제 + D3 12문제
 |[JinWoo](https://github.com/rttitity)| -
-|[SuHyun](https://github.com/khnemu11)| 골드 4문제
+|[SuHyun](https://github.com/khnemu11)| 골드 5문제
 |[HyoJin](https://github.com/hjin2)| 실버 3, 골드 2
 |[Yoojong](https://github.com/YoojongChoi)| -
 <br>
