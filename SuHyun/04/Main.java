@@ -1,38 +1,33 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int T = Integer.parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        for(int testcase = 1; testcase<=T;testcase++){
-            int N = Integer.parseInt(br.readLine());
-            StringTokenizer st = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int T = Integer.parseInt(st.nextToken());
 
-            PriorityQueue<Long> pq = new PriorityQueue<>();
+        int[][] maxScore = new int[N+1][T+1];
 
-            for(int i=0;i<N;i++){
-                long slime = Long.parseLong(st.nextToken());
-                pq.add(slime);
+        for(int i=1;i<=N;i++){
+            st = new StringTokenizer(br.readLine());
+
+            int K = Integer.parseInt(st.nextToken());
+            int S = Integer.parseInt(st.nextToken());
+
+            for(int t=1;t<K && t <= T;t++){
+                maxScore[i][t] = maxScore[i-1][t];
             }
 
-            long cost = 1;
-
-            while(pq.size() > 1){
-                long a = pq.poll();
-                long b = pq.poll();
-                long mix = a*b;
-
-                cost = ((cost%1_000_000_007)*(mix%1_000_000_007))%1_000_000_007;
-
-                pq.add(mix);
+            for(int t=K;t<=T;t++){
+                maxScore[i][t] = Math.max(maxScore[i-1][t],maxScore[i-1][t-K] + S);
             }
-
-            System.out.println(cost);
         }
+
+        System.out.println(maxScore[N][T]);
     }
 }
