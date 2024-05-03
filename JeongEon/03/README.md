@@ -1,32 +1,48 @@
-# [SWEA] 새로운 불면증 치료법 (1288번 D2️⃣)
-
+# [SWEA - D3️⃣] 1215. [S/W 문제해결 기본] 3일차 - 회문1
+ 
 ## ⏰  **time**
 
-30분
+1시간
 
 ## :pushpin: **Algorithm**
 
-수학
+구현, 펠린드롬(회문)
 
 ## ⏲️**Time Complexity**
 
-$O(Nlog(N))$
+$O(N^3)$
 
 ## :round_pushpin: **Logic**
-1. 수학 : string으로 받아 0~9까지 모든 수를 보았는지 확
+1. N/2 만큼 스텍에 넣고 스텍의 top과 나머지 N/2만큼을 비교.
+   if) 다르다면 ➡️ result 추가 X (세로 동일)
 ```cpp
-		while (all_fine()) {
-			string num = to_string(N*multi);
-			for (int j = 0; j < num.length(); j++) {
-				if (!check[num[j] - '0']) {
-					check[num[j] - '0'] = true;
-				}
+int Garo() {
+	int result = 0;
+	for (int i = 0; i < 8; i++) {
+		for (int j = 0; j <= 8 - N; j++) {
+			stack<char> check_garo;
+			bool palindrome_garo = true;
+			for (int k = 0; k < floor(N / 2); k++) {
+				check_garo.push(arr[i][j + k]);
 			}
 
-			multi++;
+			for (int k = N - floor(N / 2); k < N; k++) {
+				if (check_garo.top() != arr[i][j + k]) {
+					palindrome_garo = false;
+					break;
+				}
+				check_garo.pop();
+			}
+
+			if (palindrome_garo) {
+				result++;
+			}
 		}
+	}
+
+	return result;
+}
 ```
 
 ## :black_nib: **Review**
-- 양을 몇 번 셌는지 출력했어야했는데, 자꾸 곱한 횟수 출력해서 틀렸다.
-- 문제를 제대로 읽어야겠다.
+- 반복문 조건 설정할 때 끝까지 안 돌아서 수정하느라 오래 걸렸다.

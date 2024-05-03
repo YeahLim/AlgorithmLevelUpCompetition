@@ -1,29 +1,40 @@
-# [SWEA] 중간 평균값 구하기 (1984번 D2️⃣)
+# [SWEA - D2️⃣] 2007. 패턴 마디의 길이
 
 ## ⏰  **time**
 
-16분
+7분
 
 ## :pushpin: **Algorithm**
 
-정렬
+구현
 
 ## ⏲️**Time Complexity**
 
-$O(N)$
+$O(N^2)$
 
 ## :round_pushpin: **Logic**
-1. 오름차순으로 정렬 후 1~8위치의 값 평균
+1. 패턴의 최대 길이는 10이다. 고로, 입력값의 1~10 길이의 문자를 vector에 넣고 그 다음 입력값의 문자와 동일한지 확인한다.
 ```cpp
-		sort(vec.begin(), vec.end());
+		for (int i = 1; i <= 10; i++) {
+			vector<char> pattern;
+			for (int j = 0; j < i; j++) {
+				pattern.push_back(input[j]);
+			}
 
-		int sum = 0;
-		for (int i = 1; i < 9; i++) {
-			sum += vec[i];
+			bool find_pattern = true;
+			for (int j = 0; j < pattern.size(); j++) {
+				if (pattern[j] != input[i + j]) {
+					find_pattern = false;
+					break;
+				}
+			}
+
+			if (find_pattern) {
+				result = pattern.size();
+				break;
+			}
 		}
-
-		int avg = floor((double)sum / 8 + 0.5);
-```
+```  
 
 ## :black_nib: **Review**
-- 반올림..!
+- 월요일만해도 못 풀었는데 왜 지금은 쉽게 풀리지..?

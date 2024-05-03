@@ -19,21 +19,23 @@
 - 제 10회 [24.03.25 - 24.03.29] (완료)
 - 제 11회 [24.04.01 - 24.04.05] (완료)
 - 제 12회 [24.04.08 - 24.04.12] (완료)
-- **제 13회 [24.04.16 - 24.04.18] (예정)**
+- 제 13회 [24.04.16 - 24.04.18] (완료)
+- 제 14회 [24.04.22 - 24.04.25] (완료)
+- **제 15회 [24.04.26 - 24.05.03] (진행중)**
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| 백준 골드 1문제
-|[Godseye93](https://github.com/Godseye93)| 골드 2문제, 실버 1문제
-|[KwonJongryul](https://github.com/KwonJongryul)| 실버 3문제
+|[YeahLim](https://github.com/YeahLim)| 누적합 2문제
+|[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
+|[KwonJongryul](https://github.com/KwonJongryul)| 5문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
-|[JeongEon](https://github.com/JeongEon8)| SWEA D2 3문제 + D3 3문제
+|[JeongEon](https://github.com/JeongEon8)| SWEA D2 3문제 + D3 12문제
 |[JinWoo](https://github.com/rttitity)| 실버 2문제, 골드 1문제
-|[SuHyun](https://github.com/khnemu11)| 골드 2문제
-|[HyoJin](https://github.com/hjin2)| 실버 2, 골드 1
-|[Yoojong](https://github.com/YoojongChoi)| -
+|[SuHyun](https://github.com/khnemu11)| 골드 5문제
+|[HyoJin](https://github.com/hjin2)| 실버 3, 골드 2
+|[Yoojong](https://github.com/YoojongChoi)| 실버 5문제 골드 2문제
 <br>
 
 

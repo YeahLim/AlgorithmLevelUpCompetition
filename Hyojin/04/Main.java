@@ -3,97 +3,61 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class April11_1018 {
-    public static char[][] input;
-    public static char[][] answerW;
-    public static char[][] answerB;
+public class Main {
+    public static int N, L, R, X;
+    public static int[] selected;
+    public static int[] score;
+    public static boolean[] used;
+    public static int result = 0;
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(st.nextToken()); // 행
-        int m = Integer.parseInt(st.nextToken()); // 열
+        N = Integer.parseInt(st.nextToken());
+        L = Integer.parseInt(st.nextToken());
+        R = Integer.parseInt(st.nextToken());
+        X = Integer.parseInt(st.nextToken());
 
-        input = new char[n][m];
-        answerW = new char[n][m];
-        answerB = new char[n][m];
+        score = new int[N];
 
-        for(int i = 0 ; i < n ; i++){
-            String str = br.readLine();
-            for(int j = 0 ; j < m ; j++){
-                input[i][j] = str.charAt(j);
-            }
+        st = new StringTokenizer(br.readLine());
+        for(int i = 0 ; i < N ; i++){
+            score[i] = Integer.parseInt(st.nextToken());
         }
 
-        // White
-        for(int i = 0 ; i < n ; i++){
-            for(int j = 0 ; j < m ; j++){
-                if(i % 2 == 0){
-                    if(j % 2 == 0){
-                        answerW[i][j] = 'W';
-                    }else{
-                        answerW[i][j] = 'B';
-                    }
-                }else{
-                    if(j % 2 == 0){
-                        answerW[i][j] = 'B';
-                    }else{
-                        answerW[i][j] = 'W';
-                    }
-                }
-            }
+        for(int i = 2; i <= N ; i++){
+            used = new boolean[N];
+            selected = new int[i];
+            combi(N,i,0, 0);
         }
-
-        // Black
-        for(int i = 0 ; i < n ; i++){
-            for(int j = 0 ; j < m ; j++){
-                if(i % 2 == 0){
-                    if(j % 2 == 0){
-                        answerB[i][j] = 'B';
-                    }else{
-                        answerB[i][j] = 'W';
-                    }
-                }else{
-                    if(j % 2 == 0){
-                        answerB[i][j] = 'W';
-                    }else{
-                        answerB[i][j] = 'B';
-                    }
-                }
-            }
-        }
-
-
-        int result = Integer.MAX_VALUE;
-        for(int startx = 0 ; startx <= n - 8 ; startx++){
-            for(int starty = 0 ; starty <= m - 8 ; starty++){
-                int cnt = 0; // 8*8 했을 때 몇 개 고쳐야하는지
-                for(int i = startx ; i < startx + 8 ; i++){
-                    for(int j = starty ; j < starty + 8 ; j++){
-                        if(input[i][j] != answerW[i][j]){
-                            cnt++;
-                        }
-                    }
-                }
-                result = result > cnt ? cnt : result;
-            }
-        }
-
-        for(int startx = 0 ; startx <= n - 8 ; startx++){
-            for(int starty = 0 ; starty <= m - 8 ; starty++){
-                int cnt = 0; // 8*8 했을 때 몇 개 고쳐야하는지
-                for(int i = startx ; i < startx + 8 ; i++){
-                    for(int j = starty ; j < starty + 8 ; j++){
-                        if(input[i][j] != answerB[i][j]){
-                            cnt++;
-                        }
-                    }
-                }
-                result = result > cnt ? cnt : result;
-            }
-        }
-
         System.out.println(result);
-
     }
+    public static void combi(int n, int r, int m, int start){
+        if(m == r){
+            // nCr개 다 뽑았다는 뜻
+            int total = 0;
+            int max = Integer.MIN_VALUE;
+            int min = Integer.MAX_VALUE;
+            for(int i =0 ; i < r ; i++){
+                min = min > selected[i] ? selected[i] : min;
+                max = max < selected[i] ? selected[i] : max;
+                total += selected[i];
+            }
 
+
+            if(L <= total && total <= R && (max - min) >= X){
+                result++;
+            }
+            return;
+        }
+
+        for(int i = start ; i < n ; i++){
+            if(used[i]){
+                continue;
+            }
+            selected[m] = score[i];
+            used[i] = true;
+            combi(n, r, m + 1, i + 1);
+            used[i] = false;
+        }
+    }
 }

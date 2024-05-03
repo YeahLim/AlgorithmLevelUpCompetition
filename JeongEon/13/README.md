@@ -1,39 +1,31 @@
-# [SWEA] 달팽이 숫자 (1954번 D2️⃣)
+# [SWEA - D2️⃣] 2005. 파스칼의 삼각형
 
 ## ⏰  **time**
 
-30분
+27분
 
 ## :pushpin: **Algorithm**
 
-그래프 탐색
+구현
 
 ## ⏲️**Time Complexity**
 
-$O(N*N)$
+$O(N)$
 
 ## :round_pushpin: **Logic**
-1. 달팽이집처럼 뱅글뱅글 숫자 넣기
+1. 파스칼의 삼각형: 해당 수는 좌측 위, 우측 위의 수를 더해 만들어진다.
 ```cpp
-		while (N * N >= cnt) {
-			int nx = x + dx[dir];
-			int ny = y + dy[dir];
-
-			// 범위를 넘어섰거나 이미 수가 있을 때
-			if (ny < 0 || nx < 0 || ny >= N || nx >= N || arr[ny][nx] > 0) {
-				dir += 1;
-				if (dir == 4) {
-					dir = 0;
-				}
+		for (int i = 0; i < N; i++) {
+			vec[i].push_back(1);
+			if (i == 0) {
 				continue;
 			}
-
-			arr[ny][nx] = cnt;
-			x = nx;
-			y = ny;
-			cnt++;
+			for (int j = 0; j < vec[i - 1].size() - 1; j++) {
+				vec[i].push_back(vec[i - 1][j] + vec[i - 1][j + 1]);
+			}
+			vec[i].push_back(1);
 		}
-```
+```  
 
 ## :black_nib: **Review**
-- 
+- 맨처음에 출력만 해서 풀려고 꼼수썼는데, 역시.. 제대로 안 풀면 틀린다.

@@ -1,26 +1,41 @@
-# [SWEA] 24시간 (12368번 D3️⃣)
-
+# [SWEA - D3️⃣] 19185. 육십갑자
+ 
 ## ⏰  **time**
 
-6분
+17분
 
 ## :pushpin: **Algorithm**
 
-수학
+구현, 수학
 
 ## ⏲️**Time Complexity**
 
-$O(1)$
+$O(N)$
 
 ## :round_pushpin: **Logic**
-1. A+B가 24를 넘어가면 24를 빼고, 아니면 그대로 출력
+1. 년도가 주어지면 그 년도의 육십갑자를 알아내는 것이다.
+   Y[i]%N을 통해 S를 알아내고 Y[i]%M을 통해 T를 알아낸다.
+   이때, Y[i]%N이나 Y[i]%M이 0이면 N-1, M-1글자를 출력한다.
 ```cpp
-		int time = A + B;
+		for (int i = 0; i < Q; i++) {
+			int first;
+			if (Y[i] % N == 0) {
+				first = N - 1;
+			}
+			else {
+				first = Y[i] % N - 1;
+			}
+			int second;
+			if (Y[i] % M == 0) {
+				second = M - 1;
+			}
+			else {
+				second = Y[i] % M - 1;
+			}
 
-		if (time >= 24) {
-			time = time - 24;
+			cout << S[first] << T[second] << " ";
 		}
 ```
 
 ## :black_nib: **Review**
-- 
+- 계산값이 0인 경우를 생각 못했다.

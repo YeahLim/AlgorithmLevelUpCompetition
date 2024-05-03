@@ -1,57 +1,56 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class April11_10845 {
+public class Main {
+    public static int[][] arr;
+    public static boolean[] used = new boolean[11];
+    public static int total = 0;
+    public static int result = Integer.MIN_VALUE;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Queue<Integer> queue = new LinkedList<>();
+        StringTokenizer st = null;
 
         int tc = Integer.parseInt(br.readLine());
-        StringTokenizer st;
-        for(int i = 0; i < tc; i++) {
-            st = new StringTokenizer(br.readLine());
-            String m = st.nextToken();
-            if(m.equals("push")) {
-                int x = Integer.parseInt(st.nextToken());
-                queue.add(x);
-            } else if(m.equals("pop")) {
-                if(queue.size() == 0) {
-                    System.out.println(-1);
-                    continue;
-                } else {
-                    System.out.println(queue.poll());
-                }
-            } else if(m.equals("size")) {
-                System.out.println(queue.size());
-            } else if(m.equals("empty")) {
-                if(queue.isEmpty()) {
-                    System.out.println(1);
-                } else {
-                    System.out.println(0);
-                }
-            } else if(m.equals("front")) {
-                if(queue.isEmpty()) {
-                    System.out.println(-1);
-                } else {
-                    System.out.println(queue.peek());
-                }
-            } else if(m.equals("back")) {
-                if(queue.isEmpty()) {
-                    System.out.println(-1);
-                } else {
-                    int size = queue.size();
-                    int back = 0;
-                    for(int k = 0; k < size; k++) {
-                        back = queue.poll();
-                        queue.add(back);
-                    }
-                    System.out.println(back);
+        for(int i = 0 ; i < tc ; i++){
+            total = 0;
+            result = -1;
+            arr = new int[11][11];
+
+            for(int k = 0 ; k < 11 ; k++){
+                st = new StringTokenizer(br.readLine());
+                for(int j = 0 ; j < 11 ; j++){
+                    arr[k][j] = Integer.parseInt(st.nextToken());
                 }
             }
+
+            // 여기있는 11명을 다 써야됨
+            // 대신 0인 능력은 쓰면 안됨
+
+            rec(0);
+            System.out.println(result);
         }
+    }
+    public static void rec(int n){
+        if(n == 11){
+            result = result < total ? total : result;
+            return;
+        }
+
+        for(int i = 0 ; i < 11 ; i++){
+            if(used[i]){
+                continue;
+            }
+            if(arr[n][i] == 0){
+                continue; // n번째 사람의 능력이 0이면 pass
+            }
+            total += arr[n][i];
+            used[i] = true;
+            rec(n + 1);
+            used[i] = false;
+            total -= arr[n][i];
+        }
+
     }
 }

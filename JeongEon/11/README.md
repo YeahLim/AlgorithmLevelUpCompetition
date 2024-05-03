@@ -1,32 +1,25 @@
-# [SWEA] 파리 퇴치 (2001번 D2️⃣)
+# [SWEA - D3️⃣] 1217. [S/W 문제해결 기본] 4일차 - 거듭 제곱
 
 ## ⏰  **time**
 
-2시간
+3분
 
 ## :pushpin: **Algorithm**
 
-슬라이딩 윈도우
+재귀
 
 ## ⏲️**Time Complexity**
 
-$O(N)$
+$O(M)$
 
 ## :round_pushpin: **Logic**
-1. M*M크기만큼 확인
+1. 재귀함수로 거듭 제곱을 나타냄
 ```cpp
-		for (int j = 0; j < N - M + 1; j++) {
-			for (int k = 0; k < N - M + 1; k++) {
-				int sum = 0;
-				for (int l = j; l < j + M; l++) {
-					for (int m = k; m < k + M; m++) {
-						sum += vec[l][m];
-					}
-				}
-				if (maxi < sum)
-					maxi = sum;
-			}
-		}
+int Jegop(int N, int M) {
+	if (M == 0) return 1;
+
+	return N * Jegop(N, M - 1);
+}
 ```
 
 ## :black_nib: **Review**

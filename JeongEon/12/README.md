@@ -1,38 +1,52 @@
-# [SWEA] 간단한 369게임 (1926번 D2️⃣)
+# [SWEA - D3️⃣] 10570. 제곱 팰린드롬 수
 
 ## ⏰  **time**
 
-30분
+27분
 
 ## :pushpin: **Algorithm**
 
+구현
 
 ## ⏲️**Time Complexity**
 
-$O(N)$
+$O((B-A)*N)$
 
 ## :round_pushpin: **Logic**
-1. 3 6 9 게임
+1. 먼저 제곱근이 나오는 수를 찾아야한다.
 ```cpp
-	for (int j = 1; j <= N; j++) {
-		string num = to_string(j);
-		int cnt = 0;
-		for (int k = 0; k < num.length(); k++) {
-			if (num[k] == '3' || num[k] == '6' || num[k] == '9') {
-				cnt++;
+		for (int i = A; i <= B; i++) {
+			if (floor(sqrt(i)) == sqrt(i)) {
+				string input1 = to_string(i);
+				string input2 = to_string((int)sqrt(i));
+				if (num(input1) && sqrt_num(input2)) {
+					result++;
+				}
 			}
 		}
-		if (cnt == 0) {
-			cout << j;
-		}
-		else {
-			for (int i = 0; i < cnt; i++) {
-				cout << "-";
-			}
-		}
-		cout << " ";
+```  
+2. 해당 수가 회문이면서, 그 수의 제곱근 마저 회문이여야한다.
+```cpp
+bool sqrt_num(string x) {
+	int tmp = 0;
+	if (x.size() % 2 != 0) {
+		tmp = 1;
 	}
+	stack<char> stack;
+	for (int i = 0; i < (x.size() - tmp) / 2; i++) {
+		stack.push(x[i]);
+	}
+
+	for (int i = (x.size() - tmp) / 2 + tmp; i < x.size(); i++) {
+		if (stack.top() != x[i]) {
+			return false;
+		}
+		stack.pop();
+	}
+
+	return true;
+}
 ```
 
 ## :black_nib: **Review**
-- 3, 6, 9 중 하나만 있으면 -, 두개 있으면 --, 3개 있으면 ---
+- 회문 알고리즘은 쉬운데, 제곱근 회문 체크를 안해서 계속 틀렸다.
