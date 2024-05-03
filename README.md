@@ -29,7 +29,7 @@
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 누적합 2문제
 |[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
-|[KwonJongryul](https://github.com/KwonJongryul)| 5문제
+|[KwonJongryul](https://github.com/KwonJongryul)| -
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| SWEA D2 3문제 + D3 12문제
 |[JinWoo](https://github.com/rttitity)| 실버 2문제, 골드 1문제
