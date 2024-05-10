@@ -36,7 +36,7 @@
 |[JinWoo](https://github.com/rttitity)| 실버 2문제, 골드 1문제
 |[SuHyun](https://github.com/khnemu11)| 골드 5문제
 |[HyoJin](https://github.com/hjin2)| 실버 3, 골드 2
-|[Yoojong](https://github.com/YoojongChoi)| 실버 5문제 골드 2문제
+|[Yoojong](https://github.com/YoojongChoi)| 골드5
 <br>
 
 
