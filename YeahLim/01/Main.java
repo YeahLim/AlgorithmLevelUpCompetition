@@ -8,17 +8,13 @@ import java.util.StringTokenizer;
 public class Main {
 	
 	
-	static int N;
-	static boolean[] brokenButton;
-	static int answer, temp;
-	
-	
 	public static void main(String[] args) throws IOException {
 		
 		// 변수 초기화
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		N = Integer.parseInt(br.readLine());
+		int N = Integer.parseInt(br.readLine());
 		int M = Integer.parseInt(br.readLine());
+		int answer;
 		
 		// 고장난 리모콘이 없을 경우
 		if (M == 0) {
@@ -27,7 +23,7 @@ public class Main {
 			return;
 		}
 		
-		brokenButton = new boolean[10];
+		boolean[] brokenButton = new boolean[10];
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		while (M-- > 0) {
 			brokenButton[Integer.parseInt(st.nextToken())] = true;
