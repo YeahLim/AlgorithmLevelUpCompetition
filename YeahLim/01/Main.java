@@ -19,13 +19,13 @@ public class Main {
 			
 			cmd = br.readLine();
 			N = Integer.parseInt(br.readLine());
-            String input = br.readLine();
-            if (N == 0) {
-                arr = new String[0];
-            } else {
-                arr = input.substring(1, input.length() - 1).split(",");
-            }
-//            arr = br.readLine().substring(1, input.length() - 1).split(",");
+			String input = br.readLine();
+            		if (N == 0) {
+				arr = new String[0];
+			} else {
+				arr = input.substring(1, input.length() - 1).split(",");
+			}
+	//            arr = br.readLine().substring(1, input.length() - 1).split(",");
            
             
 			// 명령 실행
@@ -63,7 +63,7 @@ public class Main {
 				}
 				
 				// error 발생
-				if (start > end + 1) {
+				if (start > end + 1) { // 삭제하고 처리해서 +1
 					answer.append("error");
 					return;	
 				}
