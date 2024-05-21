@@ -13,6 +13,7 @@
 $O(1)$
 
 ## :round_pushpin: **Logic**
+
 1. 기본 출력 문제이다.
 
 
