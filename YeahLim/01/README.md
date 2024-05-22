@@ -20,30 +20,30 @@ $O(N)$
     int start = 0, end = arr.length - 1;
 
     for (int i = 0; i < cmd.length(); i++) {
-			char curr = cmd.charAt(i);
+		char curr = cmd.charAt(i);
+		
+		// reverse
+		if (curr == 'R') {
+			dir = !dir;
+		}
+		
+		// delete
+		else {
 			
-			// reverse
-			if (curr == 'R') {
-				dir = !dir;
+			if (dir) {
+				start++;
+			}
+			else {
+				end--;
 			}
 			
-			// delete
-			else {
-				
-				if (dir) {
-					start++;
-				}
-				else {
-					end--;
-				}
-				
-				// error 발생
-				if (start > end + 1) {
-					answer.append("error");
-					return;	
-				}
+			// error 발생
+			if (start > end + 1) {
+				answer.append("error");
+				return;	
 			}
 		}
+	}
 ```
 
 ## :black_nib: **Review**
