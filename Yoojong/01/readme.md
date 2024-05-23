@@ -4,7 +4,7 @@
 1시간
 
 ## :pushpin: **Algorithm**
-브루트 포스
+브루트 포스 
 
 ## ⏲️**Time Complexity**
 
