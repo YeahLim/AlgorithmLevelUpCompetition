@@ -35,7 +35,7 @@
 |[KwonJongryul](https://github.com/KwonJongryul)| -
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| 골드 이상 상어 5마리
-|[JinWoo](https://github.com/rttitity)| - 실버 2, 골드 1 문제
+|[JinWoo](https://github.com/rttitity)| 실버 2, 골드 1 문제
 |[SuHyun](https://github.com/khnemu11)| 골드 5문제
 |[HyoJin](https://github.com/hjin2)| -
 |[Yoojong](https://github.com/YoojongChoi)| -
