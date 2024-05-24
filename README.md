@@ -38,7 +38,7 @@
 |[JinWoo](https://github.com/rttitity)| -
 |[SuHyun](https://github.com/khnemu11)| 골드 5문제
 |[HyoJin](https://github.com/hjin2)| -
-|[Yoojong](https://github.com/YoojongChoi)| 골드5
+|[Yoojong](https://github.com/YoojongChoi)| -
 <br>
 
 
