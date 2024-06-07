@@ -19,6 +19,7 @@ public class Main {
                 lego[i] = Long.parseLong(br.readLine());
             }
 
+            //투포인터 탐색을 위한 정렬
             Arrays.sort(lego);
 
             int[] answer = new int[]{0,0};
