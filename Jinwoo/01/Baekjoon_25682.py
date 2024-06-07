@@ -32,6 +32,7 @@ min_bord = float('inf')                                                         
 print(max_bord, min_bord)
 
 for r in range(K, N+1):
+
     for c in range(K, M+1):
         max_bord = max(sum_list[r][c] - sum_list[r-K][c] - sum_list[r][c-K] + sum_list[r-K][c-K], max_bord)
         min_bord = min(sum_list[r][c] - sum_list[r-K][c] - sum_list[r][c-K] + sum_list[r-K][c-K], min_bord)
