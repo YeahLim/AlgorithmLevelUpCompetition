@@ -1,8 +1,8 @@
-# [백준 - 골드 5] 마리오 파티 (14550)
+# [백준 - 골드 4] MR.DR 문자열 (31828)
  
 ## ⏰  **time**
 
-40분
+시간 초과
 
 ## :pushpin: **Algorithm**
 
@@ -10,7 +10,7 @@ DP
 
 ## ⏲️**Time Complexity**
 
-$O(N^3)$
+$O(N)$
 
 ## :round_pushpin: **Logic**
 
