@@ -37,7 +37,7 @@
 |[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
 |[KwonJongryul](https://github.com/KwonJongryul)| -
 |[JaeHyung](https://github.com/sonesonjabgo)| -
-|[JeongEon](https://github.com/JeongEon8)| 실버 4문제, 골드 1문제
+|[JeongEon](https://github.com/JeongEon8)| 실버 3문제, 골드 2문제
 |[JinWoo](https://github.com/rttitity)| 실버 2, 골드 1 문제
 |[SuHyun](https://github.com/khnemu11)| 골드 4문제
 |[Yoojong](https://github.com/YoojongChoi)| -
