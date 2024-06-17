@@ -39,7 +39,7 @@
 |[KwonJongryul](https://github.com/KwonJongryul)| -
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| 실버 3문제, 골드 2문제
-|[JinWoo](https://github.com/rttitity)| 실버 2, 골드 1 문제
+|[JinWoo](https://github.com/rttitity)| -
 |[SuHyun](https://github.com/khnemu11)| 골드 4문제
 |[Yoojong](https://github.com/YoojongChoi)| 골드 4문제
 <br>
