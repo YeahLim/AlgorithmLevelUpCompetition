@@ -14,6 +14,7 @@ public class Main {
 
         Map<String,Word> wordMap = new HashMap<>();
 
+        //중복 문자열 개수 파악
         for(int i=0;i<N;i++){
             String value = br.readLine();
 
@@ -25,15 +26,18 @@ public class Main {
 
         PriorityQueue<Word> pq = new PriorityQueue<>();
 
+        //우선순위에 맞게 단어 정렬
         for(String key : wordMap.keySet()){
             pq.add(wordMap.get(key));
         }
 
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+        //우선순위가 높은 순서로 단어 출력
         while(!pq.isEmpty()) {
             Word word = pq.poll();
 
+            //M미만인 단어는 출력 스킵
             if (word.length < M) {
                 continue;
             }
