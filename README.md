@@ -42,7 +42,7 @@
 |[JeongEon](https://github.com/JeongEon8)| SWEA
 |[JinWoo](https://github.com/rttitity)| 실버 2문제, 골드 1문제
 |[SuHyun](https://github.com/khnemu11)| 실버 5문제
-|[Yoojong](https://github.com/YoojongChoi)| 골드 4문제
+|[Yoojong](https://github.com/YoojongChoi)| -
 <br>
 
 
