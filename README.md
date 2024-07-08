@@ -41,9 +41,9 @@
 |[Godseye93](https://github.com/Godseye93)| 골드 3문제, 실버 2문제
 |[KwonJongryul](https://github.com/KwonJongryul)| -
 |[JaeHyung](https://github.com/sonesonjabgo)| -
-|[JeongEon](https://github.com/JeongEon8)| SWEA 9문제
-|[JinWoo](https://github.com/rttitity)| 실버 2문제, 골드 1문제
-|[SuHyun](https://github.com/khnemu11)| 실버 5문제
+|[JeongEon](https://github.com/JeongEon8)| -
+|[JinWoo](https://github.com/rttitity)| 실버 2문제
+|[SuHyun](https://github.com/khnemu11)| 골드 2문제
 |[Yoojong](https://github.com/YoojongChoi)| 실버 5문제
 <br>
 
