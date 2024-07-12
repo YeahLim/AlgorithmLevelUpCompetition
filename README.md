@@ -44,7 +44,7 @@
 |[JeongEon](https://github.com/JeongEon8)| -
 |[JinWoo](https://github.com/rttitity)| 실버 2문제
 |[SuHyun](https://github.com/khnemu11)| 골드 2문제
-|[Yoojong](https://github.com/YoojongChoi)| 실버 5문제
+|[Yoojong](https://github.com/YoojongChoi)| 골드 2문제
 <br>
 
 
