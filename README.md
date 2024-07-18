@@ -39,7 +39,7 @@
 |아이디|목표|
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 골드 2문제
-|[Godseye93](https://github.com/Godseye93)| 골드 2문제, 실버 2문제
+|[Godseye93](https://github.com/Godseye93)| -
 |[KwonJongryul](https://github.com/KwonJongryul)| 실버3 문제
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제, 골드 1문제
