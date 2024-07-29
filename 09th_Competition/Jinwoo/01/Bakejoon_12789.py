@@ -37,7 +37,7 @@ while i < N_end + 1:                                                            
     print(i)
     print(N_line)
     print(stack)
-    print(result)
+    print(cnt_coin)
     print("반복값 끝", N_end)
     print("------")
 '''
@@ -54,4 +54,4 @@ if len(result) == len(N_minlist):                                               
 else:
     print("Sad")                                                                    # 결과값의 배열과 확인할 값의 배열의 길이가 다를 경우는 올바른 순서 정리가 아니므로 sad를 출력한다.
 
-#print(result)
+#print(cnt_coin)

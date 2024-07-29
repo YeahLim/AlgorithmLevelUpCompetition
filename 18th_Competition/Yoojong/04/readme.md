@@ -11,6 +11,7 @@
 $O(n^2)$
 
 ## :round_pushpin: **Logic**
+
 ```python
 for i in check_list:
     dic = {}
@@ -20,7 +21,7 @@ for i in check_list:
             if j in k:
                 iff = True
                 for l in k:
-                    if k.count(l) > i.count(l):
+                    if k.cnt(l) > i.cnt(l):
                         iff = False
                         break
 ```
