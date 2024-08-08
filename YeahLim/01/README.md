@@ -4,7 +4,7 @@
 30분
 
 ## :pushpin: **Algorithm**
-dfs
+bfs
 
 ## ⏲️**Time Complexity**
 
