@@ -35,7 +35,8 @@
 - 제 26회 [24.07.15 - 24.07.18] (완료)
 - 제 27회 [24.07.22 - 24.07.25] (완료)
 - 제 28회 [24.07.29 - 24.08.01] (완료)
-- **제 29회 [24.08.05 - 24.08.08] (진행중)**
+- 제 29회 [24.08.05 - 24.08.08] (완료)
+- **제 29회 [24.08.12 - 24.08.14] (진행중)**
 <br>
 
 # 📌목표
@@ -43,10 +44,10 @@
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 골드 2문제
 |[Godseye93](https://github.com/Godseye93)| -
-|[KwonJongryul](https://github.com/KwonJongryul)| 실버2 문제
+|[KwonJongryul](https://github.com/KwonJongryul)| -
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제, 골드 1문제
-|[JinWoo](https://github.com/rttitity)| 실버 2문제
+|[JinWoo](https://github.com/rttitity)| -
 |[SuHyun](https://github.com/khnemu11)| 골드 2문제
 |[Yoojong](https://github.com/YoojongChoi)| 골드 2문제
 <br>
