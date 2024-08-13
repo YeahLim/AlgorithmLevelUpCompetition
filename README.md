@@ -48,7 +48,7 @@
 |[JaeHyung](https://github.com/sonesonjabgo)| -
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제, 골드 1문제
 |[JinWoo](https://github.com/rttitity)| -
-|[SuHyun](https://github.com/khnemu11)| 골드 2문제
+|[SuHyun](https://github.com/khnemu11)| 골드 1문제
 |[Yoojong](https://github.com/YoojongChoi)| 골드 2문제
 <br>
 
