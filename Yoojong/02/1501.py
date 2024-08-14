@@ -1,6 +1,7 @@
 from collections import defaultdict
 dic = defaultdict(dict)
 
+
 N = int(input())
 for i in range(N):
     word = input()
