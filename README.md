@@ -44,10 +44,9 @@
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 골드 2문제
 |[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
-|[KwonJongryul](https://github.com/KwonJongryul)| -
-|[JaeHyung](https://github.com/sonesonjabgo)| -
+|[KwonJongryul](https://github.com/KwonJongryul)| 실버 2문제
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제, 골드 1문제
-|[JinWoo](https://github.com/rttitity)| -
+|[JinWoo](https://github.com/rttitity)| 실버 3문제
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
 |[Yoojong](https://github.com/YoojongChoi)| 골드 1, 실버 1문제
 <br>
