@@ -13,6 +13,44 @@ public class Main {
 	static int[][] map = new int[N][N];
 	static List<Integer> piece;
 	
+	class RotateInfo implements Comparable<RotateInfo>{
+		int[][] map;
+		int value, degree, row, col;
+		
+		public RotateInfo(int[][] map, int degree, int row, int col) {
+			this.map = map;
+			this.degree = degree; // 1: 90, 2: 180, 3:270
+			this.row = row + 1;
+			this.col = col + 1;
+			calculateValue();
+		}
+		
+
+		private void calculateValue() {
+			
+		}
+
+
+		@Override
+		public int compareTo(RotateInfo o) {
+			
+			if (this.value == o.value) {
+				
+				if (this.degree == o.degree) {
+				
+					if (this.col == o.col) {					
+						return this.row - o.row;
+					}
+					return this.col - o.col;
+				}	
+				return this.degree - o.degree;
+			}
+			return o.value - this.value;
+		}
+		
+		
+	}
+	
 	public static void main(String[] args) throws IOException {
 			
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -37,9 +75,10 @@ public class Main {
 		while (K-- > 0) {
 			
 			// 회전
-			printMap(map);
+//			printMap(map);
 			map = rotate();
 			printMap(map);
+			
 			// 유물 1차 획득
 			
 			
@@ -58,10 +97,9 @@ public class Main {
 			for (int j = 0; j <= 2; j++) {
 				
 				// 시계방향으로 90도 회전
-				int[][] newMap = cloneMap(map);
 				for (int d = 1; d < 4; d++) {
-//					printMap(newMap);
-					newMap = rotateMap(newMap, i, j);
+//					printMap(map);
+					int[][] newMap = rotateMap(map, i, j, d);
 //					printMap(newMap);
 					pq.add(new RotateInfo(newMap, d, i, j));
 				}
@@ -71,26 +109,40 @@ public class Main {
 		return pq.poll().map;
 	}
 
-	private static void printMap(int[][] map) {
-		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < N; j++) {
-				System.out.print(map[i][j] + " ");
-			}
-			System.out.println();
-		}
-		System.out.println("------------");
-	}
-
-	private static int[][] rotateMap(int[][] map, int x, int y) {
+	private static int[][] rotateMap(int[][] map, int x, int y, int degree) {
 		
 		int[][] newMap = cloneMap(map);
 		
 		for (int i = x; i < x + 3; i++) {
 			for (int j = y; j < y + 3; j++) {
-				newMap[i][j] = map[3 - j - 1][i];
+				
+				int nx = 0, ny = 0;
+				
+				int ox = i - x;
+				int oy = j - y;
+				
+				// 90도 회전
+				if (degree == 1) {
+					nx = oy;
+					ny = 2 - ox;
+				} 
+				
+				// 180도 회전
+				else if (degree == 2) {
+					nx = 2 - ox;
+					ny = 2 - oy;
+				} 
+				
+				// 270도 회전
+				else if (degree == 3) {
+					nx = 2 - oy;
+					ny = ox;
+				}
+				
+				newMap[nx + x][ny + y] = map[i][j];
 			}
 		}
-		newMap[x+1][y+1] = map[x+1][y+1]; 
+		
 		return newMap;
 	}
 
@@ -102,43 +154,16 @@ public class Main {
 		}
 		return newMap;
 	}
-
-}
-
-class RotateInfo implements Comparable<RotateInfo>{
-	int[][] map;
-	int value, degree, row, col;
 	
-	public RotateInfo(int[][] map, int degree, int row, int col) {
-		this.map = map;
-		this.degree = degree; // 1: 90, 2: 180, 3:270
-		this.row = row + 1;
-		this.col = col + 1;
-		calculateValue();
-	}
-	
-
-	private void calculateValue() {
-				
-	}
-
-
-	@Override
-	public int compareTo(RotateInfo o) {
-		
-		if (this.value == o.value) {
-			
-			if (this.degree == o.degree) {
-			
-				if (this.col == o.col) {					
-					return this.row - o.row;
-				}
-				return this.col - o.col;
-			}	
-			return this.degree - o.degree;
+	private static void printMap(int[][] map) {
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N; j++) {
+				System.out.print(map[i][j] + " ");
+			}
+			System.out.println();
 		}
-		return o.value - this.value;
+		System.out.println("------------");
 	}
-	
-	
+
 }
+
