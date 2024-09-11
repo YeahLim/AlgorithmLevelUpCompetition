@@ -12,4 +12,4 @@ dp
 
 ## :round_pushpin: **Logic**
 
-1. 냅색문제이다.
+1. 냅색문제다.

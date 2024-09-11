@@ -7,7 +7,6 @@ const happy = [0, ...input[2].split(" ").map(Number)];
 const dp = Array.from({ length: n + 1 }, () =>
   Array.from({ length: 101 }, () => 0)
 );
-
 for (let i = 1; i < n + 1; i++) {
   for (let j = 1; j < 101; j++) {
     if (hp[i] <= j) {
@@ -17,5 +16,4 @@ for (let i = 1; i < n + 1; i++) {
     }
   }
 }
-
 console.log(dp[n][99]);
