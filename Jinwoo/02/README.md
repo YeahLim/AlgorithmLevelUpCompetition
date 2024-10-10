@@ -2,7 +2,7 @@
 
 ## ⏰  **time**
 
-40분
+30분
 
 ## :pushpin: **Algorithm**
 
