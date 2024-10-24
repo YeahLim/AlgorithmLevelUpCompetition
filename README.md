@@ -54,7 +54,7 @@
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 프로그래머스 1문제
 |[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
-|[KwonJongryul](https://github.com/KwonJongryul)| 실버 2문제
+|[KwonJongryul](https://github.com/KwonJongryul)|
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제, 골드 1문제
 |[JinWoo](https://github.com/rttitity)| 실버 3문제
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
