@@ -11,8 +11,8 @@ $O(N)$
 
 ## :round_pushpin: **Logic**
 1. bfs.
-   ```python
-def bfs(start, find):
+```python
+ def bfs(start, find):
     queue = deque()
     queue.append((start, 0))
     visited = [False] * (n + 1)
@@ -27,5 +27,4 @@ def bfs(start, find):
             if not visited[i]:
                 visited[i] = True
                 queue.append((i, d + l))  
-
-   ```
+```
