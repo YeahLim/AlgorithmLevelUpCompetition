@@ -11,13 +11,13 @@ $O(N)$
 
 ## :round_pushpin: **Logic**
 1. 다이나믹
-   ```python
+```python
   def factorial(n):
       num = 1
       for i in range(1, n+1):
           num *= i
       return num
-   ```
+```
 
 ## :black_nib: **Review**
 .
