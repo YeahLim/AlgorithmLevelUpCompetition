@@ -63,7 +63,7 @@
 |[JeongEon](https://github.com/JeongEon8)| (11월 27일 이후에 올게요오 ^o^)
 |[JinWoo](https://github.com/rttitity)| 실버 3문제
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
-|[Yoojong](https://github.com/YoojongChoi)| 실버1 골드1
+|[Yoojong](https://github.com/YoojongChoi)| .
 <br>
 
 
