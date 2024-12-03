@@ -19,16 +19,16 @@ while True:
         if B > multi_2:
             temp.append(multi_2)
         elif B == multi_2:
-            #print("***** 현재 값이 B와 같음, A가 B가 됨! *****")
-            #print("현재 cnt 값:", cnt)
+            print("***** 현재 값이 B와 같음, A가 B가 됨! *****")
+            print("현재 cnt 값:", cnt)
             result = cnt
             break
 
         if B > add_1:
             temp.append(add_1)
         elif B == add_1:
-            #print("***** 현재 값이 B와 같음, A가 B가 됨! *****")
-            #print("현재 cnt 값:", cnt)
+            print("***** 현재 값이 B와 같음, A가 B가 됨! *****")
+            print("현재 cnt 값:", cnt)
             result = cnt
             break
 
@@ -38,11 +38,11 @@ while True:
     if result > 0:
         print(result)
         break
-    #print("----- 현재 배열 값과 반복 횟수 -----")
-    #print(arr, cnt)
+    print("----- 현재 배열 값과 반복 횟수 -----")
+    print(arr, cnt)
 
     # 모든 계산한 값이 B보다 전부 커서 배열에 값이 없을 경우
     if len(arr) < 1:
-        #print("비교 배열에 담긴 값이 없음... 즉 A는 B가 될 수 없다.")
+        print("비교 배열에 담긴 값이 없음... 즉 A는 B가 될 수 없다.")
         print(-1)
         break
