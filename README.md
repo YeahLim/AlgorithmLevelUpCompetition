@@ -65,7 +65,7 @@
 |[JeongEon](https://github.com/JeongEon8)|실버 1 문제, 골드 1문제
 |[JinWoo](https://github.com/rttitity)| 실버 3문제
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
-|[Yoojong](https://github.com/YoojongChoi)| .
+|[Yoojong](https://github.com/YoojongChoi)| 실버 1문제, 골드 1문제
 <br>
 
 
