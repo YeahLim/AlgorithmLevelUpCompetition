@@ -72,7 +72,7 @@
 |[YeahLim](https://github.com/YeahLim)| 프로그래머스 1문제
 |[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 일본판 백준 1문제
-|[JeongEon](https://github.com/JeongEon8)| 실버 1문제
+|[JeongEon](https://github.com/JeongEon8)| 4월 14일날 돌아올게요오 ^^
 |[JinWoo](https://github.com/rttitity)| 실버 3문제
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
 |[Yoojong](https://github.com/YoojongChoi)| 4월 10일 실버 2문제로 뵙겠습니다!
