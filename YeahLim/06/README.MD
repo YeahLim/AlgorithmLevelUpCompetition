@@ -13,4 +13,4 @@ $O(N)$
 
 ## :black_nib: **Review**
 - `*max_element`는 `#include <algorithm>`에 있음
-- score에 값 넣어야됨!
+- score에 값 넣어야됨! 
