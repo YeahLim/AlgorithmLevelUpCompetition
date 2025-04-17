@@ -80,8 +80,9 @@
 |[JeongEon](https://github.com/JeongEon8)| 4월 14일날 돌아올게요오 ^^
 |[JinWoo](https://github.com/rttitity)| 실버 3문제
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
-|[Yoojong](https://github.com/YoojongChoi)| 4월 10일 실버 2문제로 뵙겠습니다!
+|[Yoojong](https://github.com/YoojongChoi)| 실버 2문제
 <br>
+
 
 
 # 📌진행 절차

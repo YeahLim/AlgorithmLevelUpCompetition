@@ -10,6 +10,8 @@
 $O(N!)$
 
 ## :round_pushpin: **Logic**
+1. dfs로 순열 직접 구현
+2. next_permutation 이용
 
 ## :black_nib: **Review**
 - C++에서는 숫자도 bool값으로 인지됨. 0은 flase, 나머지는 true
