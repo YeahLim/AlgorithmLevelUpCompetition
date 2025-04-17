@@ -81,7 +81,7 @@
 |[JeongEon](https://github.com/JeongEon8)| 4월 14일날 돌아올게요오 ^^
 |[JinWoo](https://github.com/rttitity)| 실버 3문제
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
-|[Yoojong](https://gi제
+|[Yoojong](https://github.com/YoojongChoi)| 골드 1문제 실버 4문제
 <br>
 
 
