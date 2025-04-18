@@ -79,7 +79,7 @@
 |[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 일본판 백준 1문제
 |[JeongEon](https://github.com/JeongEon8)| 4월 14일날 돌아올게요오 ^^
-|[JinWoo](https://github.com/rttitity)| 실버 3문제
+|[JinWoo](https://github.com/rttitity)| -
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
 |[Yoojong](https://github.com/YoojongChoi)| 골드 1문제 실버 4문제
 <br>
@@ -124,4 +124,5 @@
 - 화면 공유를 통해 달성 여부를 확인한다
 - 50% 이상 미달성자는 5000원의 벌금을 납부한다
 - 50% 미만 미달성자는 10000원의 벌금을 납부한다
+- 사전 고지 없이 지각 및 불참시 벌금 5000원을 납부한다
 - 달성자들은 총 벌금의 1/N만큼씩 수령한다
