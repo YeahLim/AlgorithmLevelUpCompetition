@@ -17,4 +17,4 @@ $O(N^2)$
 - `vector<vector<int>> graph(n+1)` (o) 
 - `vector<vector<int>> graph(n+1, n+1)` (o)
 - `vector<vector<int>> graph()` (x)
-- `vector<vector<int>> graph` (세모) 왜냐면, `graph[e[0]].push_back(e[1])` 여기서 오류 남
+- `vector<vector<int>> graph` (세모) 왜냐면, `graph[e[0]].push_back(e[1])` 여기서 오류 남 `graph.push_back({e[0], e[1]})`은 가능함.
