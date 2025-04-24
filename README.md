@@ -78,7 +78,7 @@
 |[YeahLim](https://github.com/YeahLim)| 프로그래머스 + 백준 20문제
 |[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 일본판 백준 1문제
-|[JeongEon](https://github.com/JeongEon8)| 실버 2문제
+|[JeongEon](https://github.com/JeongEon8)| 6월 2일주에 목표 정하고 올게용
 |[JinWoo](https://github.com/rttitity)| -
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
 |[Yoojong](https://github.com/YoojongChoi)| 골드 1문제 실버 3문제
