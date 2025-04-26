@@ -20,24 +20,23 @@ int main() {
     // 투포인터로 M인 경우 구하기 
     int left = 0;
     int right = N-1;
-    int sum = ingredients[left] + ingredients[right];
-    int answer = sum == M ? 1 : 0;
+    int answer = 0;
     while (left < right) {
         
+        int sum = ingredients[left] + ingredients[right];
+
         if (sum < M) {
             left++;
         } 
         else if (sum > M) {
             right--;
         }
-
-        if (sum == M) {
+        else {
             answer++;
             left++;
             right--;
         }
         
-        sum = ingredients[left] + ingredients[right];
     }
 
     // 출력
