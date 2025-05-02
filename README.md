@@ -70,13 +70,14 @@
 - 제 61회 [25.04.04 - 25.04.10] (완료)
 - 제 62회 [25.04.11 - 25.04.17] (완료)
 - 제 63회 [25.04.18 - 25.04.24] (완료)
-- **제 64회 [25.04.18 - 25.04.24] (진행중)**
+- 제 64회 [25.04.18 - 25.04.24] (완료)
+- **제 65회 [25.05.02 - 25.05.08] (진행중)**
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| 프로그래머스 + 백준 10문제
+|[YeahLim](https://github.com/YeahLim)| 프로그래머스, 백준 중 1문제
 |[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 일본판 백준 1문제
 |[JeongEon](https://github.com/JeongEon8)| 6월 2일주에 목표 정하고 올게용
