@@ -83,7 +83,7 @@
 |[JeongEon](https://github.com/JeongEon8)| 6월 2일주에 목표 정하고 올게용
 |[JinWoo](https://github.com/rttitity)| 실버 1문제
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
-|[Yoojong](https://github.com/YoojongChoi)| 골드 1문제 실버 3문제
+|[Yoojong](https://github.com/YoojongChoi)| 리프레쉬 데이 즐기는 중
 <br>
 
 
