@@ -76,17 +76,18 @@
 - 제 67회 [25.05.16 - 25.05.22] (완료)
 - 제 68회 [25.05.23 - 25.05.29] (완료)
 - 제 69회 [25.05.30 - 25.06.05] (완료)
-- **제 70회 [25.05.30 - 25.06.05] (진행중)**
+- 제 70회 [25.06.06 - 25.06.12] (완료)
+- **제 71회 [25.06.13 - 25.06.19] (진행중)**
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 프로그래머스, 백준 중 1문제
-|[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
+|[Godseye93](https://github.com/Godseye93)| 2주 후 컴백
 |[KwonJongryul](https://github.com/KwonJongryul)| 일본판 백준 1문제
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제
-|[JinWoo](https://github.com/rttitity)| 실버 1문제
+|[JinWoo](https://github.com/rttitity)| -
 |[SuHyun](https://github.com/khnemu11)| 골드 1문제
 |[Yoojong](https://github.com/YoojongChoi)| 실버 1문제
 <br>
