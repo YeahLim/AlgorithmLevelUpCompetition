@@ -54,5 +54,4 @@ void calculateDistance() {
 - 
 
 ## 📡 Link
-
 https://www.acmicpc.net/problem/15686
