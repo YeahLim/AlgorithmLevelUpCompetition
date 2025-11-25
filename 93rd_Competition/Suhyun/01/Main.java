@@ -14,32 +14,26 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         int N = Integer.parseInt(st.nextToken());
-        int C = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
 
-        parent = new int[N];
+        parent = new int[N+1];
+        graph = new ArrayList[N];
 
         for(int i=0;i<N;i++){
             parent[i] = i;
-        }
-
-        List<Coordinate> list = new ArrayList<>();
-
-        for(int i=0;i<N;i++){
-            st = new StringTokenizer(br.readLine());
-
-            int x = Integer.parseInt(st.nextToken());
-            int y = Integer.parseInt(st.nextToken());
-            list.add(new Coordinate(i,x,y));
+            graph[i] = new ArrayList<>();
         }
 
         PriorityQueue<Road> pq = new PriorityQueue<>();
 
-        for(int i=0;i<list.size();i++){
-            for(int j=i+1;j<list.size();j++){
-                long cost = (long) (Math.pow(list.get(i).x - list.get(j).x,2) + Math.pow(list.get(i).y - list.get(j).y,2));
+        for(int i=0;i<K;i++){
+            st = new StringTokenizer(br.readLine());
 
-                pq.add(new Road(i,j,cost));
-            }
+            int start = Integer.parseInt(st.nextToken());
+            int end = Integer.parseInt(st.nextToken());
+            int cost = Integer.parseInt(st.nextToken());
+
+            pq.add(new Road(start,end,cost));
         }
 
         long total = 0;
@@ -47,27 +41,25 @@ public class Main {
         while (!pq.isEmpty()) {
             Road curr = pq.poll();
 
-            if(curr.cost < C){
-                continue;
-            }
             if(getParent(curr.start) == getParent(curr.end)){
                 continue;
             }
+
+            graph[curr.start].add(new Road(curr.start,curr.end,curr.cost));
+            graph[curr.end].add(new Road(curr.end,curr.start,curr.cost));
 
             total += curr.cost;
             union(curr.start,curr.end);
         }
 
-        boolean valid = true;
+        System.out.println(total);
 
-        for(int i=0;i<parent.length-1;i++){
-            if(getParent(i) != getParent(i+1)){
-                valid = false;
-                break;
-            }
+        for(int i=0;i<N;i++){
+            visited = new boolean[N];
+            findMaxLength(i,0L);
         }
 
-        System.out.println(valid ? total : -1);
+        System.out.println(max);
     }
 
     public static void findMaxLength(int start,long cost){
@@ -102,23 +94,12 @@ public class Main {
         }
     }
 }
-class Coordinate{
-    int seq;
-    int x;
-    int y;
-
-    public Coordinate(int seq, int x, int y){
-        this.seq = seq;
-        this.x = x;
-        this.y = y;
-    }
-}
 class Road implements Comparable<Road>{
     int start;
     int end;
-    long cost;
+    int cost;
 
-    public Road(int start, int end, long cost) {
+    public Road(int start, int end, int cost) {
         this.start = start;
         this.end = end;
         this.cost = cost;
@@ -126,6 +107,15 @@ class Road implements Comparable<Road>{
 
     @Override
     public int compareTo(Road o) {
-        return Long.compare(this.cost, o.cost);
+        return this.cost - o.cost;
+    }
+
+    @Override
+    public String toString() {
+        return "Road{" +
+                "start=" + start +
+                ", end=" + end +
+                ", cost=" + cost +
+                '}';
     }
 }
