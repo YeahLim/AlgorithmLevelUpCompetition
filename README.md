@@ -18,7 +18,7 @@
 |[KwonJongryul](https://github.com/KwonJongryul)| 일본판 백준 1문제
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제
 |[JinWoo](https://github.com/rttitity)| 실버 1문제
-|[SuHyun](https://github.com/khnemu11)| 골드 1문제
+|[SuHyun](https://github.com/khnemu11)| 실버 2문제
 |[Yoojong](https://github.com/YoojongChoi)| 실버 1문제
 <br>
 
