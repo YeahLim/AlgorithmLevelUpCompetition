@@ -10,17 +10,19 @@
 - 제 1회 [26.01.23 - 26.01.29] (완료)
 - 제 2회 [26.01.30 - 26.02.05] (완료)
 - 제 3회 [26.02.06 - 26.02.12] (완료)
-- **제 4회 [26.02.20 - 26.02.26] (진행중)**
+- 제 4회 [26.02.20 - 26.02.26] (완료)
+- 제 5회 [26.02.27 - 26.03.05] (완료)
+- **제 6회 [26.03.06 - 26.03.12] (진행 중)**
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| 프로그래머스, 백준 중 1문제
-|[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
+|[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제(3월 23일 주 복귀)
 |[KwonJongryul](https://github.com/KwonJongryul)| 🎌
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제
-|[JinWoo](https://github.com/rttitity)| 실버 1문제
+|[JinWoo](https://github.com/rttitity)| 실버 1문제 (3월 16일 주 복귀)
 |[SuHyun](https://github.com/khnemu11)| 실버 2문제
 |[Yoojong](https://github.com/YoojongChoi)| 🎓️
 <br>
