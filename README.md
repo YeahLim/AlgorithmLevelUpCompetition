@@ -20,7 +20,7 @@
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| c++, java로 각각 풀기 5문제 이상
+|[YeahLim](https://github.com/YeahLim)| c++, java로 각각 풀기 10문제 이상
 |[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제(3월 23일 주 복귀)
 |[KwonJongryul](https://github.com/KwonJongryul)| 🎌
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제
