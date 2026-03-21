@@ -13,13 +13,14 @@
 - 제 4회 [26.02.20 - 26.02.26] (완료)
 - 제 5회 [26.02.27 - 26.03.05] (완료)
 - 제 6회 [26.03.06 - 26.03.12] (완료)
-- **제 7회 [26.03.13 - 26.03.19] (진행 중)**
+- 제 7회 [26.03.13 - 26.03.19] (완료)
+- **제 8회 [26.03.20 - 26.03.26] (진행 중)**
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
-|[YeahLim](https://github.com/YeahLim)| 프로그래머스, 백준 중 1문제
+|[YeahLim](https://github.com/YeahLim)| c++, java로 각각 풀기 5문제 이상
 |[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제(3월 23일 주 복귀)
 |[KwonJongryul](https://github.com/KwonJongryul)| 🎌
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제
