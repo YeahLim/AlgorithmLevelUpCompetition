@@ -26,4 +26,4 @@ $O(logN)$
 - `a.begin()`은 `iterator` = 포인터이기 때문에 `*a.begin()`해야지 값이 나옴
 - `a.rbegin()`은 `reversed_iterator` = 포인터이기 때문에 `*a.rbegin()` 해야지 값 나옴
 - `pq.end()`은 `iterator` = 포인터
-- `pq.rend()`은 `reversed_iterator` = 포인터
+- `pq.rend()`은 `reversed_iterator` = 포인터 

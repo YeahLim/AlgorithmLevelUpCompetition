@@ -35,7 +35,7 @@ class Solution {
                 } else {
                     pq.put(min, pq.get(min) - 1);
                 }
-            }
+            } 
         }
         
         if (pq.isEmpty()) {

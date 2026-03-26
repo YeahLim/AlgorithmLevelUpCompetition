@@ -30,12 +30,12 @@ vector<int> solution(vector<string> operations) {
         // 최소값 제거
         else if (num == -1) {
             pq.erase(pq.begin());
-        }
+        }  
         
     }
     
     if (pq.empty()) {
         return {0, 0};
-    }
+    } 
     return {*pq.rbegin(), *pq.begin()};
 }
