@@ -1,0 +1,18 @@
+# [프로그래머스 레벨 1] 약수의 합
+
+## ?  **time**
+1분
+
+## :pushpin: **Algorithm**
+구현
+
+## ??**Time Complexity**
+$O(N)$
+
+## :round_pushpin: **Logic**
+
+
+## :black_nib: **Review** 
+
+
+## :black_nib: **C++**
