@@ -14,17 +14,18 @@
 - 제 5회 [26.02.27 - 26.03.05] (완료)
 - 제 6회 [26.03.06 - 26.03.12] (완료)
 - 제 7회 [26.03.13 - 26.03.19] (완료)
-- **제 8회 [26.03.20 - 26.03.26] (진행 중)**
+- 제 8회 [26.03.20 - 26.03.26] (완료)
+- **제 8회 [26.03.27 - 26.04.02] (진행 중)**
 <br>
 
 # 📌목표
 |아이디|목표|
 |------|---|
 |[YeahLim](https://github.com/YeahLim)| c++, java로 각각 풀기 10문제 이상
-|[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제(3월 23일 주 복귀)
+|[Godseye93](https://github.com/Godseye93)| 골드 1문제, 실버 1문제
 |[KwonJongryul](https://github.com/KwonJongryul)| 🎌
 |[JeongEon](https://github.com/JeongEon8)| 실버 1문제
-|[JinWoo](https://github.com/rttitity)| 실버 1문제 (3월 16일 주 복귀)
+|[JinWoo](https://github.com/rttitity)| 실버 1문제
 |[SuHyun](https://github.com/khnemu11)| 실버 2문제
 |[Yoojong](https://github.com/YoojongChoi)| 🎓️
 <br>
