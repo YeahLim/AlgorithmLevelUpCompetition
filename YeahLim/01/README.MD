@@ -26,6 +26,6 @@ $O(N)$
 - java의 `Integer/Long.parseInt/Long("string", 2)`= cpp의 `stoi/stoll("string", nullptr, 2)`
     - `nullptr`은 null pointer 라는 뜻
     - 두번째 인자는 어디까지 변환했는지, 위치 저장하는 포인터
-- java의 `a.indexof("a")`와 `a.lastIndexOf("a")` = c의 `a.find("a")`와 `a.rfind("a")`  
+- java의 `a.indexof("a")`와 `a.lastIndexOf("a")` = cpp의 `a.find("a")`와 `a.rfind("a")`  
     - `a.find()`나 `a.rfind()`는 index를 반환   
     - `find()`그냥 한수는 iterator 반환
