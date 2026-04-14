@@ -15,4 +15,5 @@ $O(N)$
 ## :black_nib: **Review** 
 
 ## :black_nib: **C++**
-- 충격적이다. cpp에서 string.size()는 바이트 기준이라 한글의 길이를 알 수 없음
+- `min_element`는 iterator 반환, `*`는 포인터에서 역참조
+- `vector<~~~>`가 리턴값일때 `{~~~}`이렇게 쓰는게 되는군
