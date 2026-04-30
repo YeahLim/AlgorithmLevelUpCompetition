@@ -1,4 +1,4 @@
-# [Pro]  주사위 게임1
+# [Programmers]  주사위 게임1
 
 ## ⏰  **time**
 
