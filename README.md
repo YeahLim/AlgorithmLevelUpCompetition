@@ -41,13 +41,14 @@
 - 제 13회 [26.04.24 - 26.04.30] (완료)
 
 - **제 14회 [26.05.01 - 26.05.07] (진행 중)**
-  <br>
+
+   <br>
 
 # 📌목표
 
 | 아이디                                             | 목표                      |
 | ----------------------------------------------- | ----------------------- |
-| [YeahLim](https://github.com/YeahLim)           | c++, java로 각각 풀기 5문제 이상 |
+| [YeahLim](https://github.com/YeahLim)           | c++, java로 각각 풀기 1문제 |
 | [Godseye93](https://github.com/Godseye93)       | 프로그래머스 2문제              |
 | [KwonJongryul](https://github.com/KwonJongryul) | 🎌                      |
 | [JeongEon](https://github.com/JeongEon8)        | 프로그래머스 Lv2 1문제          |
