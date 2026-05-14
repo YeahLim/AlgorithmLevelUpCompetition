@@ -1,6 +1,4 @@
-# [Programmers] 추억 점수
-
-
+# [Programmers] 최댓값과 최솟값
 
 ## ⏰  **time**
 
