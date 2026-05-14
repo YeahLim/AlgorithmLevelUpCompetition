@@ -1,24 +1,29 @@
-def solution(n):
-    curr = n
-    find = False
-    bistr = bin(curr)
-    ori_cnt = 0
+def solution(want, number, discount):
+    buyDict = {};
+    start = 0
+    answer = 0
 
-    for i in bistr:
-            if i == "1":
-                ori_cnt = ori_cnt + 1
+    while start + 9 < len(discount):
+        if start == 0:
+            curr = 0
 
-    while find == False:
-        curr = curr + 1
-        bistr = bin(curr)
-        cnt = 0
+            while curr < 10:
+                buyDict[discount[curr]] = buyDict.get(discount[curr], 0) + 1
+                curr = curr + 1
+        else:
+            buyDict[discount[start - 1]] = buyDict.get(discount[start - 1], 0) - 1
+            buyDict[discount[start + 9]] = buyDict.get(discount[start + 9], 0) + 1
 
-        for i in bistr:
-            if i == "1":
-                cnt = cnt + 1
+        success = True
 
-        if ori_cnt == cnt :
-            find = True
+        for i in range(0,len(want)):
+            if buyDict.get(want[i],0) < number[i]:
+                success = False
+                break
 
-    answer = curr
+        if success == True:
+            answer = answer + 1
+
+        start = start + 1
+
     return answer

@@ -1,33 +1,36 @@
-# [프로그래머스 - Lv2] 42586. 기능개발
+# [프로그래머스 - Lv2] 42842. 카펫
 
 ## ⏰ **time**
-15분
+10분
 
 ## :pushpin: **Algorithm**
-수학
+완전탐색
 
 ## ⏲️ **Time Complexity**
 $O(N)$
 
 ## :round_pushpin: **Logic**
-1. 남은 진도 / 개발 속도 + 1로 얼마나 걸리는 지 벡터에 저장한다.
-2. 얼마나 걸리는지 날짜가 기존 flag보다 커질때까지 cnt하고, 커지면 cnt를 출력한다.
+1. 갈색과 노란색을 더해서 임의의 높이로 나눈 값이 가로가 된다.
+2. (높이 - 2) * (너비 - 2) 값이 노란색 개수가 된다면 정답이다.
 ```cpp
-    for(int i = 1; i < days.size(); i++){
-        if(flag < days[i]){
-            flag = days[i];
-            answer.push_back(cnt);
-            cnt = 1;
-            continue;
-        }
-        cnt++;
+    for(int height = 3;; height++){
+        if(sum % height == 0){
+            int weight = sum / height;
+            
+            if((height - 2) * (weight - 2) == yellow){
+                answer.push_back(weight);
+                answer.push_back(height);
+                break;
+            }
+        } 
     }
 ```
 
 ## :black_nib: **Review**
-- 요새 하늘 너무 예쁘지 않아요?
-- 산에 녹음이 예쁘게졌어요. 딱 이번달까지가 등산하기 좋은 달입니다!
-- 용마산 가봐요~
+- 여러분 나가사키 가보신 적 있나요?
+- 사라 우동이라는 음식이 있는데요, 정말 맛있어요. 꼭 먹어보세요!
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/a0de69e3-4e5c-4b22-9c25-4fe558497e7b" />
+
 
 ## 📡 Link
-[프로그래머스 레벨2 기능개](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
+[프로그래머스 레벨2 카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)

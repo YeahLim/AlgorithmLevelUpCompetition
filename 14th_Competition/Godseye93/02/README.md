@@ -1,4 +1,6 @@
-# [Programmers] 정수찾기
+# [Programmers] 추억 점수
+
+
 
 ## ⏰  **time**
 
