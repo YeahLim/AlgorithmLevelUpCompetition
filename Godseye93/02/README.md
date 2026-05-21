@@ -1,4 +1,4 @@
-# [Programmers] 최댓값과 최솟값
+# [Programmers] 올바른 괄호
 
 ## ⏰  **time**
 
