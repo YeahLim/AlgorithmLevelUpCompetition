@@ -1,4 +1,4 @@
-# [Programmers] 이진 변환 반복하기
+# [Programmers] 다음 큰 숫자
 
 ## ⏰  **time**
 
