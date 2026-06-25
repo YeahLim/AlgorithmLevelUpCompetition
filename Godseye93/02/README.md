@@ -1,4 +1,4 @@
-# [Programmers] 다음 큰 숫자
+# [Programmers] 짝지어 제거하기
 
 ## ⏰  **time**
 
