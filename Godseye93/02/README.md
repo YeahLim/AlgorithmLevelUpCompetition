@@ -1,4 +1,4 @@
-# [Programmers] 짝지어 제거하기
+# [Programmers] 귤 고르기
 
 ## ⏰  **time**
 
