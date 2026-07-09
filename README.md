@@ -42,7 +42,7 @@
 | [YeahLim](https://github.com/YeahLim)           | c++, java로 각각 풀기 1문제 |
 | [Godseye93](https://github.com/Godseye93)       | 프로그래머스 2문제              |
 | [KwonJongryul](https://github.com/KwonJongryul) | 🎌                      |
-| [JeongEon](https://github.com/JeongEon8)        | 프로그래머스 Lv2 1문제          |
+| [JeongEon](https://github.com/JeongEon8)        | 7월 23일 복귀예정          |
 | [JinWoo](https://github.com/rttitity)           | 실버 1문제                  |
 | [SuHyun](https://github.com/khnemu11)           | 실버 2문제                  |
 | [Yoojong](https://github.com/YoojongChoi)       | 🎓️                     |
