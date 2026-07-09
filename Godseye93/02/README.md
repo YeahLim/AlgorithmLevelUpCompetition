@@ -1,4 +1,4 @@
-# [Programmers] 귤 고르기
+# [Programmers] 점프와 순간이동
 
 ## ⏰  **time**
 
