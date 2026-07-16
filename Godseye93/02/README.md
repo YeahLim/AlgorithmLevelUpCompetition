@@ -1,4 +1,4 @@
-# [Programmers] 점프와 순간이동
+# [Programmers] N개의 최소공배수
 
 ## ⏰  **time**
 
