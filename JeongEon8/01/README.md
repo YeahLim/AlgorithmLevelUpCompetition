@@ -4,7 +4,7 @@
 30분
 
 ## :pushpin: **Algorithm**
-이진, String
+이진
 
 ## ⏲️**Time Complexity**
 $O(N!)$
