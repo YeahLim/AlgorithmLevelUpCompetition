@@ -33,7 +33,8 @@
 - 제 20회 [26.06.19 - 26.06.25] (완료)
 - 제 21회 [26.06.26 - 26.07.02] (완료)
 - 제 22회 [26.07.03 - 26.07.09] (완료)
-- **제 23회 [26.07.10 - 26.07.16] (진행 중)**
+- 제 23회 [26.07.10 - 26.07.16] (완료)
+- **제 24회 [26.07.17 - 26.07.23] (진행 중)**
 <br>
 
 # 📌목표
@@ -43,7 +44,7 @@
 | [YeahLim](https://github.com/YeahLim)           | c++, java로 각각 풀기 1문제 |
 | [Godseye93](https://github.com/Godseye93)       | 프로그래머스 2문제              |
 | [KwonJongryul](https://github.com/KwonJongryul) | 🎌                      |
-| [JeongEon](https://github.com/JeongEon8)        | 7월 23일 복귀예정          |
+| [JeongEon](https://github.com/JeongEon8)        | 프로그래머스 1문제          |
 | [JinWoo](https://github.com/rttitity)           | 실버 1문제                  |
 | [SuHyun](https://github.com/khnemu11)           | 실버 2문제                  |
 | [Yoojong](https://github.com/YoojongChoi)       | 🎓️                     |
