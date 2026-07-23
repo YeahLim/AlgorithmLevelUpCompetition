@@ -1,4 +1,4 @@
-# [Programmers] N개의 최소공배수
+# [Programmers] 영어 끝말 잇기
 
 ## ⏰  **time**
 
