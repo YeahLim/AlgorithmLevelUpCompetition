@@ -1,16 +1,18 @@
-# [프로그래머스 - level 2] 점프와 순간 이동
+# [프로그래머스 - level 2] 게임 맵 최단거리
 
 ## ⏰  **time**
 10분
 
 ## :pushpin: **Algorithm**
-완전탐색
+BFS
 
 ## ⏲️**Time Complexity**
-$O(N)$
+$O(N^2)$
 
 ## :round_pushpin: **Logic**
-- *2, +1의 완전탐색 같지만 *2는 건전지가 소비되지 않으므로 *2를 무한히 하고 부족한 부분만 +1를 하면 된다
+- 움직일 수 있는 경우의 수
+  - 상하좌우
+  - 1인 경우만 움직임 가능
 
 ## :black_nib: **Review**
-- https://school.programmers.co.kr/learn/courses/30/lessons/12980?language=python3
+- https://school.programmers.co.kr/learn/courses/30/lessons/1844?language=python3
