@@ -1,4 +1,4 @@
-# [Programmers] 영어 끝말 잇기
+# [Programmers] 할인 행사
 
 ## ⏰  **time**
 
