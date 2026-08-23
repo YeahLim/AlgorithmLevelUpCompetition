@@ -38,19 +38,20 @@
 - 제 25회 [26.07.24 - 26.07.30] (완료)
 - 제 26회 [26.07.31 - 26.08.06] (완료)
 - 제 27회 [26.08.07 - 26.08.13] (완료)
-- **제 28회 [26.08.14 - 26.08.20] (진행 중)**
+- 제 28회 [26.08.14 - 26.08.20] (완료)
+- **제 29회 [26.08.21 - 26.08.27] (진행 중)**
 <br>
 
 # 📌목표
 
 | 아이디                                             | 목표                      |
 | ----------------------------------------------- | ----------------------- |
-| [YeahLim](https://github.com/YeahLim)           | c++, java로 각각 풀기 1문제 |
+| [YeahLim](https://github.com/YeahLim)           | 한 주 쉬기(c++, java로 각각 풀기 1문제) |
 | [Godseye93](https://github.com/Godseye93)       | 프로그래머스 2문제              |
 | [KwonJongryul](https://github.com/KwonJongryul) | 🎌                      |
 | [JeongEon](https://github.com/JeongEon8)        | 프로그래머스 1문제          |
-| [JinWoo](https://github.com/rttitity)           | 실버 1문제                  |
-| [SuHyun](https://github.com/khnemu11)           | 실버 2문제                  |
+| [JinWoo](https://github.com/rttitity)           | 💻                  |
+| [SuHyun](https://github.com/khnemu11)           | 한 주 쉬기(실버 2문제)                  |
 | [Yoojong](https://github.com/YoojongChoi)       | 🎓️                     |
 | [HoChan](https://github.com/Hc-5514)            | 프로그래머스 Lv2 1문제                       |
 
