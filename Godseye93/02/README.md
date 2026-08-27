@@ -1,4 +1,4 @@
-# [Programmers] n^2 배열 자르기
+# [Programmers] 피로도
 
 ## ⏰  **time**
 
