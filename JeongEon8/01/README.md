@@ -1,22 +1,21 @@
-# [PGS - Lv1] 01_직사각형 별찍기
+# [PGS - Lv1] 01_나누어 떨어지는 숫자 배열
 
 ## ⏰**time**
-5분
+3분
 
 ## :pushpin: **Algorithm**
-반복문
+정렬
 
 ## ⏲️**Time Complexity**
-$O(a*b)$
+$O(NlogN)$
 
 ## :round_pushpin: **Logic**
-1. 이중 for문을 이용해서 *을 출력한다.
+1. 나눈 나머지가 0이면 answer 벡터에 넣기
    ```cpp
-   for(int i =0;i<b;i++){
-       for(int j=0;j<a;j++){
-           cout << "*";
+   for(int i = 0; i < size; i++){
+       if(arr[i]%divisor == 0){
+           answer.push_back(arr[i]);
        }
-       cout << '\n';
    }
    ```
 
@@ -24,4 +23,4 @@ $O(a*b)$
 - 
 
 ## 📡 Link
-[프로그래머스 Lv1 직사각형 별찍기](https://school.programmers.co.kr/learn/courses/30/lessons/12969)
+[프로그래머스 lv1 나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910)
