@@ -1,4 +1,4 @@
-# [Programmers] 행렬의 곱셈
+# [Programmers] 전화번호 목록
 
 ## ⏰  **time**
 
