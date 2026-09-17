@@ -1,19 +1,10 @@
-def solution(citations):
-    hIndex = len(citations)
+def solution(A,B):
+    answer = 0
 
-    while hIndex > 0 :
-        uCnt = 0
-        lCnt = 0
+    A.sort()
+    B.sort()
 
-        for c in citations:
-            if c >= hIndex:
-                uCnt= uCnt +1
-            if c <= hIndex:
-                lCnt = lCnt + 1
+    for i in range(0,len(A)):
+        answer = answer + A[i] * B[len(B)-1-i]
 
-        if hIndex <= uCnt and hIndex >= lCnt :
-            break
-
-        hIndex = hIndex - 1
-
-    return hIndex
+    return answer
