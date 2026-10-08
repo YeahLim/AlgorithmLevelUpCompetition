@@ -1,16 +1,16 @@
-# [프로그래머스 - level 2] 숫자 카드 나누기
+# [프로그래머스 - level 2] 카펫
 
 ## ⏰  **time**
-20분
+10분
 
 ## :pushpin: **Algorithm**
-최대공약수
+구현
 
 ## ⏲️**Time Complexity**
-$O(N^2)$
+$O(sqrt(N))$
 
 ## :round_pushpin: **Logic**
-- 모든 수에 나눠지는 수는 최대공약수이므로 배열 중 1개의 최대공약수를 구한 뒤 나머지 배열에 나머지지 않는 숫자를 찾으면 된다
+- 카펫의 너비는 최대 sqrt(전체 카펫의 넓이) 까지 된다
 
 ## :black_nib: **Review**
-- https://school.programmers.co.kr/learn/courses/30/lessons/135807?language=python3
+- https://school.programmers.co.kr/learn/courses/30/lessons/42842?language=python3
