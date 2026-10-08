@@ -1,4 +1,4 @@
-# [Programmers] 캐시
+# [Programmers] 프로세스
 
 ## ⏰  **time**
 
