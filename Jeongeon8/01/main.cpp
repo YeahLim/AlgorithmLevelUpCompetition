@@ -1,1 +1,13 @@
-01_나머지가 1이 되는 수 찾기
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(int n) {
+    int answer = 1;
+    
+    while(1) {
+        if(n % answer == 1) return answer;
+        else answer++;
+    }
+}
