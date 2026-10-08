@@ -43,7 +43,8 @@
 - 제 30회 [26.08.28 - 26.09.03] (완료)
 - 제 31회 [26.09.04 - 26.09.10] (완료)
 - 제 32회 [26.09.11 - 26.09.17] (완료)
-- **제 33회 [26.09.25 - 26.10.01] (진행 중)**
+- 제 33회 [26.09.25 - 26.10.01] (진행 중)**
+- **제 34회 [26.10.02 - 26.10.08] (진행 중)**
 
 <br>
 
@@ -56,7 +57,7 @@
 | [KwonJongryul](https://github.com/KwonJongryul) | 🎌                      |
 | [JeongEon](https://github.com/JeongEon8)        | 프로그래머스 1문제          |
 | [JinWoo](https://github.com/rttitity)           | 💻                  |
-| [SuHyun](https://github.com/khnemu11)           | 한 주 쉬기(실버 2문제)                  |
+| [SuHyun](https://github.com/khnemu11)           | 프로그래머스 1문제                  |
 | [Yoojong](https://github.com/YoojongChoi)       | 🎓️                     |
 | [HoChan](https://github.com/Hc-5514)            | 프로그래머스 Lv2 1문제                       |
 
