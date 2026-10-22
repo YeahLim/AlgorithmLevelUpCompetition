@@ -1,4 +1,4 @@
-# [Programmers] 타겟넘버
+# [Programmers] 모음 사전
 
 ## ⏰  **time**
 
