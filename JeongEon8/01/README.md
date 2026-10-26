@@ -1,30 +1,46 @@
-# [PGS - Lv1] 01_정수 제곱근 판별
+# [PGS - Lv1] 01_콜라츠 추측
 
 ## ⏰**time**
+3분
 
 
 ## :pushpin: **Algorithm**
-
+산수
 
 ## ⏲️**Time Complexity**
 $O(N)$
 
 ## :round_pushpin: **Logic**
-1. 제곱근인가~? 아닌가~?
+1. 짝수면 2로 나누고, 홀수면 3을 곱한 후 1을 더한다.
+2. 이때, 1회 계산이 끝나면 answer에 1을 더한다.
+3. answer가 500이 넘어가면 answer는 -1로 저장하고 break한다.
+4. num의 숫자가 int 범위를 넘어갈 수 있으므로 long long 자료형을 활용한다.
    ```cpp
-   long long answer = 0;
-   long long a = sqrt(n);
-   if (a*a == n) {	// 양의 정수x의 제곱인 경우
-       answer=pow(a+1,2);
+   long long n = num;
+   
+   while(n != 1)
+   {
+       if(n%2==0)
+       {
+           n /= 2;
+       }
+       else
+       {
+           n *= 3;
+           n += 1;
+       }
+       
+       ++answer;   
+       if(answer >= 500)
+       {
+           answer = -1;
+           break;
+       }
    }
-   else {	// 아닌 경우
-       answer=-1;
-   }
-   return answer;
    ```
 
 ## :black_nib: **Review**
-- 
+- 감기 조심하세용
 
 ## 📡 Link
-[프로그래머스 Lv1 정수 제곱근](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
+[프로그래머스 Lv1 콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
