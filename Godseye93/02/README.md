@@ -1,4 +1,4 @@
-# [Programmers] 모음 사전
+# [Programmers] 뉴스 클러스터링
 
 ## ⏰  **time**
 
