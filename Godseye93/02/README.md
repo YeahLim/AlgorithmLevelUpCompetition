@@ -1,4 +1,4 @@
-# [Programmers] 뉴스 클러스터링
+# [Programmers] 땅따먹기
 
 ## ⏰  **time**
 
