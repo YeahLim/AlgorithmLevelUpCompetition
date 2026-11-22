@@ -49,8 +49,9 @@
 - 제 36회 [26.10.16 - 26.10.22] (완료)
 - 제 37회 [26.10.23 - 26.10.29] (완료)
 - 제 38회 [26.10.30 - 26.11.05] (완료)
-- 제 39회 [26.11.06 - 26.11.12] (진행 중)
-- **제 40회 [26.11.13 - 26.11.19] (진행 중)** 
+- 제 39회 [26.11.06 - 26.11.12] (완료)
+- 제 40회 [26.11.13 - 26.11.19] (완료)
+- **제 41회 [26.11. - 26.11.26] (진행 중)** 
 
 <br>
 
@@ -58,10 +59,10 @@
 
 | 아이디                                             | 목표                      |
 | ----------------------------------------------- | ----------------------- |
-| [YeahLim](https://github.com/YeahLim)           | 한 주 쉬기(c++, java로 각각 풀기 1문제) |
+| [YeahLim](https://github.com/YeahLim)           | c++, java로 각각 풀기 1문제 |
 | [Godseye93](https://github.com/Godseye93)       | 프로그래머스 2문제              |
 | [KwonJongryul](https://github.com/KwonJongryul) | 🎌                      |
-| [JeongEon](https://github.com/JeongEon8)        | 프로그래머스 1문제          |
+| [JeongEon](https://github.com/JeongEon8)        | 12월 3일에 만나요~         |
 | [JinWoo](https://github.com/rttitity)           | 💻                  |
 | [SuHyun](https://github.com/khnemu11)           | 프로그래머스 1문제                  |
 | [Yoojong](https://github.com/YoojongChoi)       | 🎓️                     |
